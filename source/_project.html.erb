@@ -1,0 +1,35 @@
+<article class="<%= style || "style1" %>">
+  <span class="image">
+    <img src="images/<%= image %>" alt="" />
+  </span>
+  <!-- <a onclick="$('.ui.long.modal.<%= title.parameterize %>').modal('show')" href="#<%= title.parameterize %>"> -->
+  <a onclick="$('.ui.long.modal.<%= title.parameterize %>').modal('show')">
+    <h2><%= title %></h2>
+    <div class="content">
+      <p><%= description %></p>
+    </div>
+  </a>
+</article>
+
+<div class="ui long modal <%= title.parameterize %>">
+  <i class="close icon"></i>
+  <div class="header">
+    <%= title %>
+  </div>
+  <div class="content">
+    <%= markdown detail %>
+  </div>
+  <div class="actions">
+    <div class="ui black deny button">
+      Close
+    </div>
+    <%- if defined? url %>
+      <a href="<%= url || '#' %>" target="_blank" class="two fluid ui inverted buttons">
+        <div class="ui green basic inverted button">
+          <i class="arrow icon"></i>
+          Visit &rarr;
+        </div>
+      </a>
+    <%- end %>
+  </div>
+</div>

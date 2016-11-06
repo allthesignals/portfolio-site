@@ -1,0 +1,18 @@
+---
+title: Welcome to Middleman
+---
+
+<!-- Main -->
+<div id="main">
+  <div class="inner">
+    <header>
+      <h1>Hi, I'm Matt</h1>
+      <p>I'm a web developer with a background in urban planning and policy. I build tools and visualizations that help planners and the public understand and engage with complex issues that affect their neighborhoods and cities.</p>
+    </header>
+    <section class="tiles">
+      <%- data.projects.each do |project| %>
+        <%= partial 'project', locals: project %>
+      <% end %>
+    </section>
+  </div>
+</div>
