@@ -4,14 +4,29 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+$('img')
+  .visibility({
+    type       : 'image',
+    transition : 'fade in',
+    duration   : 1000,
+    onAllLoaded: function() {
+    	alert("All have loaded");
+    }
+  })
+;
+
 	var hash = window.location.hash;
 	if(hash) {
 		var selector = '.ui.long.modal.' + hash.replace("#", "");
-		// $(selector).imagesLoaded(function() {
-		$(selector)
-		  .modal('show')
-		;
-		// });
+		$(selector).imagesLoaded().done(function() {
+			setTimeout(function(){
+				$(selector)
+				  .modal('show')
+				;
+			}, 200);
+		});
+
+
 	}
 
 (function($) {
