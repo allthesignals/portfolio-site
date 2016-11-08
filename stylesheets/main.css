@@ -2302,6 +2302,3249 @@ body.dimmable > .dimmer {
 /*******************************
         User Overrides
 *******************************/
+/*!
+ * # Semantic UI - Icon
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Copyright 2015 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+/*******************************
+             Icon
+*******************************/
+@font-face {
+  font-family: 'Icons';
+  src: url("/fonts/semantic-ui/icons.eot");
+  src: url("/fonts/semantic-ui/icons.eot?#iefix") format("embedded-opentype"), url("/fonts/semantic-ui/icons.woff2") format("woff2"), url("/fonts/semantic-ui/icons.woff") format("woff"), url("/fonts/semantic-ui/icons.ttf") format("truetype"), url("/fonts/semantic-ui/icons.svg#icons") format("svg");
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-decoration: inherit;
+  text-transform: none; }
+/* line 27, semantic-ui/elements/_icon.scss */
+i.icon {
+  display: inline-block;
+  opacity: 1;
+  margin: 0em 0.25rem 0em 0em;
+  width: 1.18em;
+  height: 1em;
+  font-family: 'Icons';
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  text-align: center;
+  speak: none;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+/* line 45, semantic-ui/elements/_icon.scss */
+i.icon:before {
+  background: none !important; }
+
+/*******************************
+             Types
+*******************************/
+/*--------------
+    Loading
+---------------*/
+/* line 59, semantic-ui/elements/_icon.scss */
+i.icon.loading {
+  height: 1em;
+  line-height: 1;
+  -webkit-animation: icon-loading 2s linear infinite;
+  animation: icon-loading 2s linear infinite; }
+
+@-webkit-keyframes icon-loading {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@keyframes icon-loading {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+/*******************************
+             States
+*******************************/
+/* line 91, semantic-ui/elements/_icon.scss */
+i.icon.hover {
+  opacity: 1 !important; }
+
+/* line 94, semantic-ui/elements/_icon.scss */
+i.icon.active {
+  opacity: 1 !important; }
+
+/* line 97, semantic-ui/elements/_icon.scss */
+i.emphasized.icon {
+  opacity: 1 !important; }
+
+/* line 100, semantic-ui/elements/_icon.scss */
+i.disabled.icon {
+  opacity: 0.45 !important; }
+
+/*******************************
+           Variations
+*******************************/
+/*-------------------
+        Fitted
+--------------------*/
+/* line 114, semantic-ui/elements/_icon.scss */
+i.fitted.icon {
+  width: auto;
+  margin: 0em; }
+
+/*-------------------
+         Link
+--------------------*/
+/* line 123, semantic-ui/elements/_icon.scss */
+i.link.icon {
+  cursor: pointer;
+  opacity: 0.8;
+  -webkit-transition: opacity 0.1s ease;
+  transition: opacity 0.1s ease; }
+
+/* line 129, semantic-ui/elements/_icon.scss */
+i.link.icon:hover {
+  opacity: 1 !important; }
+
+/*-------------------
+      Circular
+--------------------*/
+/* line 137, semantic-ui/elements/_icon.scss */
+i.circular.icon {
+  border-radius: 500em !important;
+  line-height: 1 !important;
+  padding: 0.5em 0.5em !important;
+  box-shadow: 0em 0em 0em 0.1em rgba(0, 0, 0, 0.1) inset;
+  width: 2em !important;
+  height: 2em !important; }
+
+/* line 145, semantic-ui/elements/_icon.scss */
+i.circular.inverted.icon {
+  border: none;
+  box-shadow: none; }
+
+/*-------------------
+      Flipped
+--------------------*/
+/* line 154, semantic-ui/elements/_icon.scss */
+i.flipped.icon,
+i.horizontally.flipped.icon {
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1); }
+
+/* line 160, semantic-ui/elements/_icon.scss */
+i.vertically.flipped.icon {
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1); }
+
+/*-------------------
+      Rotated
+--------------------*/
+/* line 170, semantic-ui/elements/_icon.scss */
+i.rotated.icon,
+i.right.rotated.icon,
+i.clockwise.rotated.icon {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+/* line 177, semantic-ui/elements/_icon.scss */
+i.left.rotated.icon,
+i.counterclockwise.rotated.icon {
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg); }
+
+/*-------------------
+      Bordered
+--------------------*/
+/* line 188, semantic-ui/elements/_icon.scss */
+i.bordered.icon {
+  line-height: 1;
+  vertical-align: baseline;
+  width: 2em;
+  height: 2em;
+  padding: 0.5em 0.41em !important;
+  box-shadow: 0em 0em 0em 0.1em rgba(0, 0, 0, 0.1) inset; }
+
+/* line 196, semantic-ui/elements/_icon.scss */
+i.bordered.inverted.icon {
+  border: none;
+  box-shadow: none; }
+
+/*-------------------
+      Inverted
+--------------------*/
+/* Inverted Shapes */
+/* line 207, semantic-ui/elements/_icon.scss */
+i.inverted.bordered.icon,
+i.inverted.circular.icon {
+  background-color: #1b1c1d !important;
+  color: #ffffff !important; }
+
+/* line 212, semantic-ui/elements/_icon.scss */
+i.inverted.icon {
+  color: #ffffff; }
+
+/*-------------------
+       Colors
+--------------------*/
+/* Red */
+/* line 222, semantic-ui/elements/_icon.scss */
+i.red.icon {
+  color: #db2828 !important; }
+
+/* line 225, semantic-ui/elements/_icon.scss */
+i.inverted.red.icon {
+  color: #ff695e !important; }
+
+/* line 228, semantic-ui/elements/_icon.scss */
+i.inverted.bordered.red.icon,
+i.inverted.circular.red.icon {
+  background-color: #db2828 !important;
+  color: #ffffff !important; }
+
+/* Orange */
+/* line 235, semantic-ui/elements/_icon.scss */
+i.orange.icon {
+  color: #f2711c !important; }
+
+/* line 238, semantic-ui/elements/_icon.scss */
+i.inverted.orange.icon {
+  color: #ff851b !important; }
+
+/* line 241, semantic-ui/elements/_icon.scss */
+i.inverted.bordered.orange.icon,
+i.inverted.circular.orange.icon {
+  background-color: #f2711c !important;
+  color: #ffffff !important; }
+
+/* Yellow */
+/* line 248, semantic-ui/elements/_icon.scss */
+i.yellow.icon {
+  color: #fbbd08 !important; }
+
+/* line 251, semantic-ui/elements/_icon.scss */
+i.inverted.yellow.icon {
+  color: #ffe21f !important; }
+
+/* line 254, semantic-ui/elements/_icon.scss */
+i.inverted.bordered.yellow.icon,
+i.inverted.circular.yellow.icon {
+  background-color: #fbbd08 !important;
+  color: #ffffff !important; }
+
+/* Olive */
+/* line 261, semantic-ui/elements/_icon.scss */
+i.olive.icon {
+  color: #b5cc18 !important; }
+
+/* line 264, semantic-ui/elements/_icon.scss */
+i.inverted.olive.icon {
+  color: #d9e778 !important; }
+
+/* line 267, semantic-ui/elements/_icon.scss */
+i.inverted.bordered.olive.icon,
+i.inverted.circular.olive.icon {
+  background-color: #b5cc18 !important;
+  color: #ffffff !important; }
+
+/* Green */
+/* line 274, semantic-ui/elements/_icon.scss */
+i.green.icon {
+  color: #21ba45 !important; }
+
+/* line 277, semantic-ui/elements/_icon.scss */
+i.inverted.green.icon {
+  color: #2ecc40 !important; }
+
+/* line 280, semantic-ui/elements/_icon.scss */
+i.inverted.bordered.green.icon,
+i.inverted.circular.green.icon {
+  background-color: #21ba45 !important;
+  color: #ffffff !important; }
+
+/* Teal */
+/* line 287, semantic-ui/elements/_icon.scss */
+i.teal.icon {
+  color: #00b5ad !important; }
+
+/* line 290, semantic-ui/elements/_icon.scss */
+i.inverted.teal.icon {
+  color: #6dffff !important; }
+
+/* line 293, semantic-ui/elements/_icon.scss */
+i.inverted.bordered.teal.icon,
+i.inverted.circular.teal.icon {
+  background-color: #00b5ad !important;
+  color: #ffffff !important; }
+
+/* Blue */
+/* line 300, semantic-ui/elements/_icon.scss */
+i.blue.icon {
+  color: #2185d0 !important; }
+
+/* line 303, semantic-ui/elements/_icon.scss */
+i.inverted.blue.icon {
+  color: #54c8ff !important; }
+
+/* line 306, semantic-ui/elements/_icon.scss */
+i.inverted.bordered.blue.icon,
+i.inverted.circular.blue.icon {
+  background-color: #2185d0 !important;
+  color: #ffffff !important; }
+
+/* Violet */
+/* line 313, semantic-ui/elements/_icon.scss */
+i.violet.icon {
+  color: #6435c9 !important; }
+
+/* line 316, semantic-ui/elements/_icon.scss */
+i.inverted.violet.icon {
+  color: #a291fb !important; }
+
+/* line 319, semantic-ui/elements/_icon.scss */
+i.inverted.bordered.violet.icon,
+i.inverted.circular.violet.icon {
+  background-color: #6435c9 !important;
+  color: #ffffff !important; }
+
+/* Purple */
+/* line 326, semantic-ui/elements/_icon.scss */
+i.purple.icon {
+  color: #a333c8 !important; }
+
+/* line 329, semantic-ui/elements/_icon.scss */
+i.inverted.purple.icon {
+  color: #dc73ff !important; }
+
+/* line 332, semantic-ui/elements/_icon.scss */
+i.inverted.bordered.purple.icon,
+i.inverted.circular.purple.icon {
+  background-color: #a333c8 !important;
+  color: #ffffff !important; }
+
+/* Pink */
+/* line 339, semantic-ui/elements/_icon.scss */
+i.pink.icon {
+  color: #e03997 !important; }
+
+/* line 342, semantic-ui/elements/_icon.scss */
+i.inverted.pink.icon {
+  color: #ff8edf !important; }
+
+/* line 345, semantic-ui/elements/_icon.scss */
+i.inverted.bordered.pink.icon,
+i.inverted.circular.pink.icon {
+  background-color: #e03997 !important;
+  color: #ffffff !important; }
+
+/* Brown */
+/* line 352, semantic-ui/elements/_icon.scss */
+i.brown.icon {
+  color: #a5673f !important; }
+
+/* line 355, semantic-ui/elements/_icon.scss */
+i.inverted.brown.icon {
+  color: #d67c1c !important; }
+
+/* line 358, semantic-ui/elements/_icon.scss */
+i.inverted.bordered.brown.icon,
+i.inverted.circular.brown.icon {
+  background-color: #a5673f !important;
+  color: #ffffff !important; }
+
+/* Grey */
+/* line 365, semantic-ui/elements/_icon.scss */
+i.grey.icon {
+  color: #767676 !important; }
+
+/* line 368, semantic-ui/elements/_icon.scss */
+i.inverted.grey.icon {
+  color: #dcddde !important; }
+
+/* line 371, semantic-ui/elements/_icon.scss */
+i.inverted.bordered.grey.icon,
+i.inverted.circular.grey.icon {
+  background-color: #767676 !important;
+  color: #ffffff !important; }
+
+/* Black */
+/* line 378, semantic-ui/elements/_icon.scss */
+i.black.icon {
+  color: #1b1c1d !important; }
+
+/* line 381, semantic-ui/elements/_icon.scss */
+i.inverted.black.icon {
+  color: #545454 !important; }
+
+/* line 384, semantic-ui/elements/_icon.scss */
+i.inverted.bordeblack.black.icon,
+i.inverted.circular.black.icon {
+  background-color: #1b1c1d !important;
+  color: #ffffff !important; }
+
+/*-------------------
+        Sizes
+--------------------*/
+/* line 394, semantic-ui/elements/_icon.scss */
+i.mini.icon,
+i.mini.icons {
+  line-height: 1;
+  font-size: 0.71428571rem; }
+
+/* line 399, semantic-ui/elements/_icon.scss */
+i.tiny.icon,
+i.tiny.icons {
+  line-height: 1;
+  font-size: 0.85714286rem; }
+
+/* line 404, semantic-ui/elements/_icon.scss */
+i.small.icon,
+i.small.icons {
+  line-height: 1;
+  font-size: 0.92857143em; }
+
+/* line 409, semantic-ui/elements/_icon.scss */
+i.icon,
+i.icons {
+  font-size: 1em; }
+
+/* line 413, semantic-ui/elements/_icon.scss */
+i.large.icon,
+i.large.icons {
+  line-height: 1;
+  vertical-align: middle;
+  font-size: 1.5em; }
+
+/* line 419, semantic-ui/elements/_icon.scss */
+i.big.icon,
+i.big.icons {
+  line-height: 1;
+  vertical-align: middle;
+  font-size: 2em; }
+
+/* line 425, semantic-ui/elements/_icon.scss */
+i.huge.icon,
+i.huge.icons {
+  line-height: 1;
+  vertical-align: middle;
+  font-size: 4em; }
+
+/* line 431, semantic-ui/elements/_icon.scss */
+i.massive.icon,
+i.massive.icons {
+  line-height: 1;
+  vertical-align: middle;
+  font-size: 8em; }
+
+/*******************************
+            Groups
+*******************************/
+/* line 443, semantic-ui/elements/_icon.scss */
+i.icons {
+  display: inline-block;
+  position: relative;
+  line-height: 1; }
+
+/* line 448, semantic-ui/elements/_icon.scss */
+i.icons .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  margin: 0em;
+  margin: 0; }
+
+/* line 458, semantic-ui/elements/_icon.scss */
+i.icons .icon:first-child {
+  position: static;
+  width: auto;
+  height: auto;
+  vertical-align: top;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  margin-right: 0.25rem; }
+
+/* Corner Icon */
+/* line 470, semantic-ui/elements/_icon.scss */
+i.icons .corner.icon {
+  top: auto;
+  left: auto;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  font-size: 0.45em;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff; }
+
+/* line 481, semantic-ui/elements/_icon.scss */
+i.icons .inverted.corner.icon {
+  text-shadow: -1px -1px 0 #1b1c1d, 1px -1px 0 #1b1c1d, -1px 1px 0 #1b1c1d, 1px 1px 0 #1b1c1d; }
+
+/*
+ * Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
+ * License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/*******************************
+
+Semantic-UI integration of font-awesome :
+
+///class names are separated
+i.icon.circle => i.icon.circle
+i.icon.circle-o => i.icon.circle.outline
+
+//abbreviation are replaced by full letters:
+i.icon.ellipsis-h => i.icon.ellipsis.horizontal
+i.icon.ellipsis-v => i.icon.ellipsis.vertical
+.alpha => .i.icon.alphabet
+.asc => .i.icon.ascending
+.desc => .i.icon.descending
+.alt =>.alternate
+
+ASCII order is conserved for easier maintenance.
+
+Icons that only have one style 'outline', 'square' etc do not require this class
+for instance `lemon icon` not `lemon outline icon` since there is only one lemon
+
+*******************************/
+/*******************************
+            Icons
+*******************************/
+/* Web Content */
+/* line 521, semantic-ui/elements/_icon.scss */
+i.icon.search:before {
+  content: "\f002"; }
+
+/* line 524, semantic-ui/elements/_icon.scss */
+i.icon.mail.outline:before {
+  content: "\f003"; }
+
+/* line 527, semantic-ui/elements/_icon.scss */
+i.icon.external:before {
+  content: "\f08e"; }
+
+/* line 530, semantic-ui/elements/_icon.scss */
+i.icon.signal:before {
+  content: "\f012"; }
+
+/* line 533, semantic-ui/elements/_icon.scss */
+i.icon.setting:before {
+  content: "\f013"; }
+
+/* line 536, semantic-ui/elements/_icon.scss */
+i.icon.home:before {
+  content: "\f015"; }
+
+/* line 539, semantic-ui/elements/_icon.scss */
+i.icon.inbox:before {
+  content: "\f01c"; }
+
+/* line 542, semantic-ui/elements/_icon.scss */
+i.icon.browser:before {
+  content: "\f022"; }
+
+/* line 545, semantic-ui/elements/_icon.scss */
+i.icon.tag:before {
+  content: "\f02b"; }
+
+/* line 548, semantic-ui/elements/_icon.scss */
+i.icon.tags:before {
+  content: "\f02c"; }
+
+/* line 551, semantic-ui/elements/_icon.scss */
+i.icon.calendar:before {
+  content: "\f073"; }
+
+/* line 554, semantic-ui/elements/_icon.scss */
+i.icon.comment:before {
+  content: "\f075"; }
+
+/* line 557, semantic-ui/elements/_icon.scss */
+i.icon.comments:before {
+  content: "\f086"; }
+
+/* line 560, semantic-ui/elements/_icon.scss */
+i.icon.shop:before {
+  content: "\f07a"; }
+
+/* line 563, semantic-ui/elements/_icon.scss */
+i.icon.privacy:before {
+  content: "\f084"; }
+
+/* line 566, semantic-ui/elements/_icon.scss */
+i.icon.settings:before {
+  content: "\f085"; }
+
+/* line 569, semantic-ui/elements/_icon.scss */
+i.icon.trophy:before {
+  content: "\f091"; }
+
+/* line 572, semantic-ui/elements/_icon.scss */
+i.icon.payment:before {
+  content: "\f09d"; }
+
+/* line 575, semantic-ui/elements/_icon.scss */
+i.icon.feed:before {
+  content: "\f09e"; }
+
+/* line 578, semantic-ui/elements/_icon.scss */
+i.icon.alarm.outline:before {
+  content: "\f0a2"; }
+
+/* line 581, semantic-ui/elements/_icon.scss */
+i.icon.tasks:before {
+  content: "\f0ae"; }
+
+/* line 584, semantic-ui/elements/_icon.scss */
+i.icon.cloud:before {
+  content: "\f0c2"; }
+
+/* line 587, semantic-ui/elements/_icon.scss */
+i.icon.lab:before {
+  content: "\f0c3"; }
+
+/* line 590, semantic-ui/elements/_icon.scss */
+i.icon.mail:before {
+  content: "\f0e0"; }
+
+/* line 593, semantic-ui/elements/_icon.scss */
+i.icon.idea:before {
+  content: "\f0eb"; }
+
+/* line 596, semantic-ui/elements/_icon.scss */
+i.icon.dashboard:before {
+  content: "\f0e4"; }
+
+/* line 599, semantic-ui/elements/_icon.scss */
+i.icon.sitemap:before {
+  content: "\f0e8"; }
+
+/* line 602, semantic-ui/elements/_icon.scss */
+i.icon.alarm:before {
+  content: "\f0f3"; }
+
+/* line 605, semantic-ui/elements/_icon.scss */
+i.icon.terminal:before {
+  content: "\f120"; }
+
+/* line 608, semantic-ui/elements/_icon.scss */
+i.icon.code:before {
+  content: "\f121"; }
+
+/* line 611, semantic-ui/elements/_icon.scss */
+i.icon.protect:before {
+  content: "\f132"; }
+
+/* line 614, semantic-ui/elements/_icon.scss */
+i.icon.calendar.outline:before {
+  content: "\f133"; }
+
+/* line 617, semantic-ui/elements/_icon.scss */
+i.icon.ticket:before {
+  content: "\f145"; }
+
+/* line 620, semantic-ui/elements/_icon.scss */
+i.icon.external.square:before {
+  content: "\f14c"; }
+
+/* line 623, semantic-ui/elements/_icon.scss */
+i.icon.map:before {
+  content: "\f14e"; }
+
+/* line 626, semantic-ui/elements/_icon.scss */
+i.icon.bug:before {
+  content: "\f188"; }
+
+/* line 629, semantic-ui/elements/_icon.scss */
+i.icon.mail.square:before {
+  content: "\f199"; }
+
+/* line 632, semantic-ui/elements/_icon.scss */
+i.icon.history:before {
+  content: "\f1da"; }
+
+/* line 635, semantic-ui/elements/_icon.scss */
+i.icon.options:before {
+  content: "\f1de"; }
+
+/* line 638, semantic-ui/elements/_icon.scss */
+i.icon.comment.outline:before {
+  content: "\f0e5"; }
+
+/* line 641, semantic-ui/elements/_icon.scss */
+i.icon.comments.outline:before {
+  content: "\f0e6"; }
+
+/* line 644, semantic-ui/elements/_icon.scss */
+i.icon.text.telephone:before {
+  content: "\f1e4"; }
+
+/* line 647, semantic-ui/elements/_icon.scss */
+i.icon.find:before {
+  content: "\f1e5"; }
+
+/* line 650, semantic-ui/elements/_icon.scss */
+i.icon.wifi:before {
+  content: "\f1eb"; }
+
+/* line 653, semantic-ui/elements/_icon.scss */
+i.icon.alarm.slash:before {
+  content: "\f1f6"; }
+
+/* line 656, semantic-ui/elements/_icon.scss */
+i.icon.alarm.slash.outline:before {
+  content: "\f1f7"; }
+
+/* line 659, semantic-ui/elements/_icon.scss */
+i.icon.copyright:before {
+  content: "\f1f9"; }
+
+/* line 662, semantic-ui/elements/_icon.scss */
+i.icon.at:before {
+  content: "\f1fa"; }
+
+/* line 665, semantic-ui/elements/_icon.scss */
+i.icon.eyedropper:before {
+  content: "\f1fb"; }
+
+/* line 668, semantic-ui/elements/_icon.scss */
+i.icon.paint.brush:before {
+  content: "\f1fc"; }
+
+/* line 671, semantic-ui/elements/_icon.scss */
+i.icon.heartbeat:before {
+  content: "\f21e"; }
+
+/* User Actions */
+/* line 676, semantic-ui/elements/_icon.scss */
+i.icon.download:before {
+  content: "\f019"; }
+
+/* line 679, semantic-ui/elements/_icon.scss */
+i.icon.repeat:before {
+  content: "\f01e"; }
+
+/* line 682, semantic-ui/elements/_icon.scss */
+i.icon.refresh:before {
+  content: "\f021"; }
+
+/* line 685, semantic-ui/elements/_icon.scss */
+i.icon.lock:before {
+  content: "\f023"; }
+
+/* line 688, semantic-ui/elements/_icon.scss */
+i.icon.bookmark:before {
+  content: "\f02e"; }
+
+/* line 691, semantic-ui/elements/_icon.scss */
+i.icon.print:before {
+  content: "\f02f"; }
+
+/* line 694, semantic-ui/elements/_icon.scss */
+i.icon.write:before {
+  content: "\f040"; }
+
+/* line 697, semantic-ui/elements/_icon.scss */
+i.icon.theme:before {
+  content: "\f043"; }
+
+/* line 700, semantic-ui/elements/_icon.scss */
+i.icon.adjust:before {
+  content: "\f042"; }
+
+/* line 703, semantic-ui/elements/_icon.scss */
+i.icon.edit:before {
+  content: "\f044"; }
+
+/* line 706, semantic-ui/elements/_icon.scss */
+i.icon.external.share:before {
+  content: "\f045"; }
+
+/* line 709, semantic-ui/elements/_icon.scss */
+i.icon.ban:before {
+  content: "\f05e"; }
+
+/* line 712, semantic-ui/elements/_icon.scss */
+i.icon.mail.forward:before {
+  content: "\f064"; }
+
+/* line 715, semantic-ui/elements/_icon.scss */
+i.icon.share:before {
+  content: "\f064"; }
+
+/* line 718, semantic-ui/elements/_icon.scss */
+i.icon.expand:before {
+  content: "\f065"; }
+
+/* line 721, semantic-ui/elements/_icon.scss */
+i.icon.compress:before {
+  content: "\f066"; }
+
+/* line 724, semantic-ui/elements/_icon.scss */
+i.icon.unhide:before {
+  content: "\f06e"; }
+
+/* line 727, semantic-ui/elements/_icon.scss */
+i.icon.hide:before {
+  content: "\f070"; }
+
+/* line 730, semantic-ui/elements/_icon.scss */
+i.icon.random:before {
+  content: "\f074"; }
+
+/* line 733, semantic-ui/elements/_icon.scss */
+i.icon.retweet:before {
+  content: "\f079"; }
+
+/* line 736, semantic-ui/elements/_icon.scss */
+i.icon.sign.out:before {
+  content: "\f08b"; }
+
+/* line 739, semantic-ui/elements/_icon.scss */
+i.icon.pin:before {
+  content: "\f08d"; }
+
+/* line 742, semantic-ui/elements/_icon.scss */
+i.icon.sign.in:before {
+  content: "\f090"; }
+
+/* line 745, semantic-ui/elements/_icon.scss */
+i.icon.upload:before {
+  content: "\f093"; }
+
+/* line 748, semantic-ui/elements/_icon.scss */
+i.icon.call:before {
+  content: "\f095"; }
+
+/* line 751, semantic-ui/elements/_icon.scss */
+i.icon.call.square:before {
+  content: "\f098"; }
+
+/* line 754, semantic-ui/elements/_icon.scss */
+i.icon.remove.bookmark:before {
+  content: "\f097"; }
+
+/* line 757, semantic-ui/elements/_icon.scss */
+i.icon.unlock:before {
+  content: "\f09c"; }
+
+/* line 760, semantic-ui/elements/_icon.scss */
+i.icon.configure:before {
+  content: "\f0ad"; }
+
+/* line 763, semantic-ui/elements/_icon.scss */
+i.icon.filter:before {
+  content: "\f0b0"; }
+
+/* line 766, semantic-ui/elements/_icon.scss */
+i.icon.wizard:before {
+  content: "\f0d0"; }
+
+/* line 769, semantic-ui/elements/_icon.scss */
+i.icon.undo:before {
+  content: "\f0e2"; }
+
+/* line 772, semantic-ui/elements/_icon.scss */
+i.icon.exchange:before {
+  content: "\f0ec"; }
+
+/* line 775, semantic-ui/elements/_icon.scss */
+i.icon.cloud.download:before {
+  content: "\f0ed"; }
+
+/* line 778, semantic-ui/elements/_icon.scss */
+i.icon.cloud.upload:before {
+  content: "\f0ee"; }
+
+/* line 781, semantic-ui/elements/_icon.scss */
+i.icon.reply:before {
+  content: "\f112"; }
+
+/* line 784, semantic-ui/elements/_icon.scss */
+i.icon.reply.all:before {
+  content: "\f122"; }
+
+/* line 787, semantic-ui/elements/_icon.scss */
+i.icon.erase:before {
+  content: "\f12d"; }
+
+/* line 790, semantic-ui/elements/_icon.scss */
+i.icon.unlock.alternate:before {
+  content: "\f13e"; }
+
+/* line 793, semantic-ui/elements/_icon.scss */
+i.icon.archive:before {
+  content: "\f187"; }
+
+/* line 796, semantic-ui/elements/_icon.scss */
+i.icon.translate:before {
+  content: "\f1ab"; }
+
+/* line 799, semantic-ui/elements/_icon.scss */
+i.icon.recycle:before {
+  content: "\f1b8"; }
+
+/* line 802, semantic-ui/elements/_icon.scss */
+i.icon.send:before {
+  content: "\f1d8"; }
+
+/* line 805, semantic-ui/elements/_icon.scss */
+i.icon.send.outline:before {
+  content: "\f1d9"; }
+
+/* line 808, semantic-ui/elements/_icon.scss */
+i.icon.share.alternate:before {
+  content: "\f1e0"; }
+
+/* line 811, semantic-ui/elements/_icon.scss */
+i.icon.share.alternate.square:before {
+  content: "\f1e1"; }
+
+/* line 814, semantic-ui/elements/_icon.scss */
+i.icon.wait:before {
+  content: "\f017"; }
+
+/* line 817, semantic-ui/elements/_icon.scss */
+i.icon.write.square:before {
+  content: "\f14b"; }
+
+/* line 820, semantic-ui/elements/_icon.scss */
+i.icon.share.square:before {
+  content: "\f14d"; }
+
+/* line 823, semantic-ui/elements/_icon.scss */
+i.icon.add.to.cart:before {
+  content: "\f217"; }
+
+/* line 826, semantic-ui/elements/_icon.scss */
+i.icon.in.cart:before {
+  content: "\f218"; }
+
+/* line 829, semantic-ui/elements/_icon.scss */
+i.icon.add.user:before {
+  content: "\f234"; }
+
+/* line 832, semantic-ui/elements/_icon.scss */
+i.icon.remove.user:before {
+  content: "\f235"; }
+
+/* Messages */
+/* line 837, semantic-ui/elements/_icon.scss */
+i.icon.help.circle:before {
+  content: "\f059"; }
+
+/* line 840, semantic-ui/elements/_icon.scss */
+i.icon.info.circle:before {
+  content: "\f05a"; }
+
+/* line 843, semantic-ui/elements/_icon.scss */
+i.icon.warning:before {
+  content: "\f12a"; }
+
+/* line 846, semantic-ui/elements/_icon.scss */
+i.icon.warning.circle:before {
+  content: "\f06a"; }
+
+/* line 849, semantic-ui/elements/_icon.scss */
+i.icon.warning.sign:before {
+  content: "\f071"; }
+
+/* line 852, semantic-ui/elements/_icon.scss */
+i.icon.help:before {
+  content: "\f128"; }
+
+/* line 855, semantic-ui/elements/_icon.scss */
+i.icon.info:before {
+  content: "\f129"; }
+
+/* line 858, semantic-ui/elements/_icon.scss */
+i.icon.announcement:before {
+  content: "\f0a1"; }
+
+/* line 861, semantic-ui/elements/_icon.scss */
+i.icon.birthday:before {
+  content: "\f1fd"; }
+
+/* Users */
+/* line 866, semantic-ui/elements/_icon.scss */
+i.icon.users:before {
+  content: "\f0c0"; }
+
+/* line 869, semantic-ui/elements/_icon.scss */
+i.icon.doctor:before {
+  content: "\f0f0"; }
+
+/* line 872, semantic-ui/elements/_icon.scss */
+i.icon.child:before {
+  content: "\f1ae"; }
+
+/* line 875, semantic-ui/elements/_icon.scss */
+i.icon.user:before {
+  content: "\f007"; }
+
+/* line 878, semantic-ui/elements/_icon.scss */
+i.icon.handicap:before {
+  content: "\f193"; }
+
+/* line 881, semantic-ui/elements/_icon.scss */
+i.icon.student:before {
+  content: "\f19d"; }
+
+/* line 884, semantic-ui/elements/_icon.scss */
+i.icon.spy:before {
+  content: "\f21b"; }
+
+/* Gender & Sexuality */
+/* line 889, semantic-ui/elements/_icon.scss */
+i.icon.female:before {
+  content: "\f182"; }
+
+/* line 892, semantic-ui/elements/_icon.scss */
+i.icon.male:before {
+  content: "\f183"; }
+
+/* line 895, semantic-ui/elements/_icon.scss */
+i.icon.woman:before {
+  content: "\f221"; }
+
+/* line 898, semantic-ui/elements/_icon.scss */
+i.icon.man:before {
+  content: "\f222"; }
+
+/* line 901, semantic-ui/elements/_icon.scss */
+i.icon.non.binary.transgender:before {
+  content: "\f223"; }
+
+/* line 904, semantic-ui/elements/_icon.scss */
+i.icon.intergender:before {
+  content: "\f224"; }
+
+/* line 907, semantic-ui/elements/_icon.scss */
+i.icon.transgender:before {
+  content: "\f225"; }
+
+/* line 910, semantic-ui/elements/_icon.scss */
+i.icon.lesbian:before {
+  content: "\f226"; }
+
+/* line 913, semantic-ui/elements/_icon.scss */
+i.icon.gay:before {
+  content: "\f227"; }
+
+/* line 916, semantic-ui/elements/_icon.scss */
+i.icon.heterosexual:before {
+  content: "\f228"; }
+
+/* line 919, semantic-ui/elements/_icon.scss */
+i.icon.other.gender:before {
+  content: "\f229"; }
+
+/* line 922, semantic-ui/elements/_icon.scss */
+i.icon.other.gender.vertical:before {
+  content: "\f22a"; }
+
+/* line 925, semantic-ui/elements/_icon.scss */
+i.icon.other.gender.horizontal:before {
+  content: "\f22b"; }
+
+/* line 928, semantic-ui/elements/_icon.scss */
+i.icon.neuter:before {
+  content: "\f22c"; }
+
+/* View Adjustment */
+/* line 933, semantic-ui/elements/_icon.scss */
+i.icon.grid.layout:before {
+  content: "\f00a"; }
+
+/* line 936, semantic-ui/elements/_icon.scss */
+i.icon.list.layout:before {
+  content: "\f00b"; }
+
+/* line 939, semantic-ui/elements/_icon.scss */
+i.icon.block.layout:before {
+  content: "\f009"; }
+
+/* line 942, semantic-ui/elements/_icon.scss */
+i.icon.zoom:before {
+  content: "\f00e"; }
+
+/* line 945, semantic-ui/elements/_icon.scss */
+i.icon.zoom.out:before {
+  content: "\f010"; }
+
+/* line 948, semantic-ui/elements/_icon.scss */
+i.icon.resize.vertical:before {
+  content: "\f07d"; }
+
+/* line 951, semantic-ui/elements/_icon.scss */
+i.icon.resize.horizontal:before {
+  content: "\f07e"; }
+
+/* line 954, semantic-ui/elements/_icon.scss */
+i.icon.maximize:before {
+  content: "\f0b2"; }
+
+/* line 957, semantic-ui/elements/_icon.scss */
+i.icon.crop:before {
+  content: "\f125"; }
+
+/* Literal Objects */
+/* line 962, semantic-ui/elements/_icon.scss */
+i.icon.cocktail:before {
+  content: "\f000"; }
+
+/* line 965, semantic-ui/elements/_icon.scss */
+i.icon.road:before {
+  content: "\f018"; }
+
+/* line 968, semantic-ui/elements/_icon.scss */
+i.icon.flag:before {
+  content: "\f024"; }
+
+/* line 971, semantic-ui/elements/_icon.scss */
+i.icon.book:before {
+  content: "\f02d"; }
+
+/* line 974, semantic-ui/elements/_icon.scss */
+i.icon.gift:before {
+  content: "\f06b"; }
+
+/* line 977, semantic-ui/elements/_icon.scss */
+i.icon.leaf:before {
+  content: "\f06c"; }
+
+/* line 980, semantic-ui/elements/_icon.scss */
+i.icon.fire:before {
+  content: "\f06d"; }
+
+/* line 983, semantic-ui/elements/_icon.scss */
+i.icon.plane:before {
+  content: "\f072"; }
+
+/* line 986, semantic-ui/elements/_icon.scss */
+i.icon.magnet:before {
+  content: "\f076"; }
+
+/* line 989, semantic-ui/elements/_icon.scss */
+i.icon.legal:before {
+  content: "\f0e3"; }
+
+/* line 992, semantic-ui/elements/_icon.scss */
+i.icon.lemon:before {
+  content: "\f094"; }
+
+/* line 995, semantic-ui/elements/_icon.scss */
+i.icon.world:before {
+  content: "\f0ac"; }
+
+/* line 998, semantic-ui/elements/_icon.scss */
+i.icon.travel:before {
+  content: "\f0b1"; }
+
+/* line 1001, semantic-ui/elements/_icon.scss */
+i.icon.shipping:before {
+  content: "\f0d1"; }
+
+/* line 1004, semantic-ui/elements/_icon.scss */
+i.icon.money:before {
+  content: "\f0d6"; }
+
+/* line 1007, semantic-ui/elements/_icon.scss */
+i.icon.lightning:before {
+  content: "\f0e7"; }
+
+/* line 1010, semantic-ui/elements/_icon.scss */
+i.icon.rain:before {
+  content: "\f0e9"; }
+
+/* line 1013, semantic-ui/elements/_icon.scss */
+i.icon.treatment:before {
+  content: "\f0f1"; }
+
+/* line 1016, semantic-ui/elements/_icon.scss */
+i.icon.suitcase:before {
+  content: "\f0f2"; }
+
+/* line 1019, semantic-ui/elements/_icon.scss */
+i.icon.bar:before {
+  content: "\f0fc"; }
+
+/* line 1022, semantic-ui/elements/_icon.scss */
+i.icon.flag.outline:before {
+  content: "\f11d"; }
+
+/* line 1025, semantic-ui/elements/_icon.scss */
+i.icon.flag.checkered:before {
+  content: "\f11e"; }
+
+/* line 1028, semantic-ui/elements/_icon.scss */
+i.icon.puzzle:before {
+  content: "\f12e"; }
+
+/* line 1031, semantic-ui/elements/_icon.scss */
+i.icon.fire.extinguisher:before {
+  content: "\f134"; }
+
+/* line 1034, semantic-ui/elements/_icon.scss */
+i.icon.rocket:before {
+  content: "\f135"; }
+
+/* line 1037, semantic-ui/elements/_icon.scss */
+i.icon.anchor:before {
+  content: "\f13d"; }
+
+/* line 1040, semantic-ui/elements/_icon.scss */
+i.icon.bullseye:before {
+  content: "\f140"; }
+
+/* line 1043, semantic-ui/elements/_icon.scss */
+i.icon.sun:before {
+  content: "\f185"; }
+
+/* line 1046, semantic-ui/elements/_icon.scss */
+i.icon.moon:before {
+  content: "\f186"; }
+
+/* line 1049, semantic-ui/elements/_icon.scss */
+i.icon.fax:before {
+  content: "\f1ac"; }
+
+/* line 1052, semantic-ui/elements/_icon.scss */
+i.icon.life.ring:before {
+  content: "\f1cd"; }
+
+/* line 1055, semantic-ui/elements/_icon.scss */
+i.icon.bomb:before {
+  content: "\f1e2"; }
+
+/* line 1058, semantic-ui/elements/_icon.scss */
+i.icon.soccer:before {
+  content: "\f1e3"; }
+
+/* line 1061, semantic-ui/elements/_icon.scss */
+i.icon.calculator:before {
+  content: "\f1ec"; }
+
+/* line 1064, semantic-ui/elements/_icon.scss */
+i.icon.diamond:before {
+  content: "\f219"; }
+
+/* Shapes */
+/* line 1069, semantic-ui/elements/_icon.scss */
+i.icon.crosshairs:before {
+  content: "\f05b"; }
+
+/* line 1072, semantic-ui/elements/_icon.scss */
+i.icon.asterisk:before {
+  content: "\f069"; }
+
+/* line 1075, semantic-ui/elements/_icon.scss */
+i.icon.certificate:before {
+  content: "\f0a3"; }
+
+/* line 1078, semantic-ui/elements/_icon.scss */
+i.icon.circle:before {
+  content: "\f111"; }
+
+/* line 1081, semantic-ui/elements/_icon.scss */
+i.icon.quote.left:before {
+  content: "\f10d"; }
+
+/* line 1084, semantic-ui/elements/_icon.scss */
+i.icon.quote.right:before {
+  content: "\f10e"; }
+
+/* line 1087, semantic-ui/elements/_icon.scss */
+i.icon.ellipsis.horizontal:before {
+  content: "\f141"; }
+
+/* line 1090, semantic-ui/elements/_icon.scss */
+i.icon.ellipsis.vertical:before {
+  content: "\f142"; }
+
+/* line 1093, semantic-ui/elements/_icon.scss */
+i.icon.cube:before {
+  content: "\f1b2"; }
+
+/* line 1096, semantic-ui/elements/_icon.scss */
+i.icon.cubes:before {
+  content: "\f1b3"; }
+
+/* line 1099, semantic-ui/elements/_icon.scss */
+i.icon.circle.notched:before {
+  content: "\f1ce"; }
+
+/* line 1102, semantic-ui/elements/_icon.scss */
+i.icon.circle.thin:before {
+  content: "\f1db"; }
+
+/* line 1105, semantic-ui/elements/_icon.scss */
+i.icon.square.outline:before {
+  content: "\f096"; }
+
+/* line 1108, semantic-ui/elements/_icon.scss */
+i.icon.square:before {
+  content: "\f0c8"; }
+
+/* Item Selection */
+/* line 1113, semantic-ui/elements/_icon.scss */
+i.icon.checkmark:before {
+  content: "\f00c"; }
+
+/* line 1116, semantic-ui/elements/_icon.scss */
+i.icon.remove:before {
+  content: "\f00d"; }
+
+/* line 1119, semantic-ui/elements/_icon.scss */
+i.icon.checkmark.box:before {
+  content: "\f046"; }
+
+/* line 1122, semantic-ui/elements/_icon.scss */
+i.icon.move:before {
+  content: "\f047"; }
+
+/* line 1125, semantic-ui/elements/_icon.scss */
+i.icon.add.circle:before {
+  content: "\f055"; }
+
+/* line 1128, semantic-ui/elements/_icon.scss */
+i.icon.minus.circle:before {
+  content: "\f056"; }
+
+/* line 1131, semantic-ui/elements/_icon.scss */
+i.icon.remove.circle:before {
+  content: "\f057"; }
+
+/* line 1134, semantic-ui/elements/_icon.scss */
+i.icon.check.circle:before {
+  content: "\f058"; }
+
+/* line 1137, semantic-ui/elements/_icon.scss */
+i.icon.remove.circle.outline:before {
+  content: "\f05c"; }
+
+/* line 1140, semantic-ui/elements/_icon.scss */
+i.icon.check.circle.outline:before {
+  content: "\f05d"; }
+
+/* line 1143, semantic-ui/elements/_icon.scss */
+i.icon.plus:before {
+  content: "\f067"; }
+
+/* line 1146, semantic-ui/elements/_icon.scss */
+i.icon.minus:before {
+  content: "\f068"; }
+
+/* line 1149, semantic-ui/elements/_icon.scss */
+i.icon.add.square:before {
+  content: "\f0fe"; }
+
+/* line 1152, semantic-ui/elements/_icon.scss */
+i.icon.radio:before {
+  content: "\f10c"; }
+
+/* line 1155, semantic-ui/elements/_icon.scss */
+i.icon.selected.radio:before {
+  content: "\f192"; }
+
+/* line 1158, semantic-ui/elements/_icon.scss */
+i.icon.minus.square:before {
+  content: "\f146"; }
+
+/* line 1161, semantic-ui/elements/_icon.scss */
+i.icon.minus.square.outline:before {
+  content: "\f147"; }
+
+/* line 1164, semantic-ui/elements/_icon.scss */
+i.icon.check.square:before {
+  content: "\f14a"; }
+
+/* line 1167, semantic-ui/elements/_icon.scss */
+i.icon.plus.square.outline:before {
+  content: "\f196"; }
+
+/* line 1170, semantic-ui/elements/_icon.scss */
+i.icon.toggle.off:before {
+  content: "\f204"; }
+
+/* line 1173, semantic-ui/elements/_icon.scss */
+i.icon.toggle.on:before {
+  content: "\f205"; }
+
+/* Media */
+/* line 1178, semantic-ui/elements/_icon.scss */
+i.icon.film:before {
+  content: "\f008"; }
+
+/* line 1181, semantic-ui/elements/_icon.scss */
+i.icon.sound:before {
+  content: "\f025"; }
+
+/* line 1184, semantic-ui/elements/_icon.scss */
+i.icon.photo:before {
+  content: "\f030"; }
+
+/* line 1187, semantic-ui/elements/_icon.scss */
+i.icon.bar.chart:before {
+  content: "\f080"; }
+
+/* line 1190, semantic-ui/elements/_icon.scss */
+i.icon.camera.retro:before {
+  content: "\f083"; }
+
+/* line 1193, semantic-ui/elements/_icon.scss */
+i.icon.newspaper:before {
+  content: "\f1ea"; }
+
+/* line 1196, semantic-ui/elements/_icon.scss */
+i.icon.area.chart:before {
+  content: "\f1fe"; }
+
+/* line 1199, semantic-ui/elements/_icon.scss */
+i.icon.pie.chart:before {
+  content: "\f200"; }
+
+/* line 1202, semantic-ui/elements/_icon.scss */
+i.icon.line.chart:before {
+  content: "\f201"; }
+
+/* Pointers */
+/* line 1207, semantic-ui/elements/_icon.scss */
+i.icon.arrow.circle.outline.down:before {
+  content: "\f01a"; }
+
+/* line 1210, semantic-ui/elements/_icon.scss */
+i.icon.arrow.circle.outline.up:before {
+  content: "\f01b"; }
+
+/* line 1213, semantic-ui/elements/_icon.scss */
+i.icon.chevron.left:before {
+  content: "\f053"; }
+
+/* line 1216, semantic-ui/elements/_icon.scss */
+i.icon.chevron.right:before {
+  content: "\f054"; }
+
+/* line 1219, semantic-ui/elements/_icon.scss */
+i.icon.arrow.left:before {
+  content: "\f060"; }
+
+/* line 1222, semantic-ui/elements/_icon.scss */
+i.icon.arrow.right:before {
+  content: "\f061"; }
+
+/* line 1225, semantic-ui/elements/_icon.scss */
+i.icon.arrow.up:before {
+  content: "\f062"; }
+
+/* line 1228, semantic-ui/elements/_icon.scss */
+i.icon.arrow.down:before {
+  content: "\f063"; }
+
+/* line 1231, semantic-ui/elements/_icon.scss */
+i.icon.chevron.up:before {
+  content: "\f077"; }
+
+/* line 1234, semantic-ui/elements/_icon.scss */
+i.icon.chevron.down:before {
+  content: "\f078"; }
+
+/* line 1237, semantic-ui/elements/_icon.scss */
+i.icon.pointing.right:before {
+  content: "\f0a4"; }
+
+/* line 1240, semantic-ui/elements/_icon.scss */
+i.icon.pointing.left:before {
+  content: "\f0a5"; }
+
+/* line 1243, semantic-ui/elements/_icon.scss */
+i.icon.pointing.up:before {
+  content: "\f0a6"; }
+
+/* line 1246, semantic-ui/elements/_icon.scss */
+i.icon.pointing.down:before {
+  content: "\f0a7"; }
+
+/* line 1249, semantic-ui/elements/_icon.scss */
+i.icon.arrow.circle.left:before {
+  content: "\f0a8"; }
+
+/* line 1252, semantic-ui/elements/_icon.scss */
+i.icon.arrow.circle.right:before {
+  content: "\f0a9"; }
+
+/* line 1255, semantic-ui/elements/_icon.scss */
+i.icon.arrow.circle.up:before {
+  content: "\f0aa"; }
+
+/* line 1258, semantic-ui/elements/_icon.scss */
+i.icon.arrow.circle.down:before {
+  content: "\f0ab"; }
+
+/* line 1261, semantic-ui/elements/_icon.scss */
+i.icon.caret.down:before {
+  content: "\f0d7"; }
+
+/* line 1264, semantic-ui/elements/_icon.scss */
+i.icon.caret.up:before {
+  content: "\f0d8"; }
+
+/* line 1267, semantic-ui/elements/_icon.scss */
+i.icon.caret.left:before {
+  content: "\f0d9"; }
+
+/* line 1270, semantic-ui/elements/_icon.scss */
+i.icon.caret.right:before {
+  content: "\f0da"; }
+
+/* line 1273, semantic-ui/elements/_icon.scss */
+i.icon.angle.double.left:before {
+  content: "\f100"; }
+
+/* line 1276, semantic-ui/elements/_icon.scss */
+i.icon.angle.double.right:before {
+  content: "\f101"; }
+
+/* line 1279, semantic-ui/elements/_icon.scss */
+i.icon.angle.double.up:before {
+  content: "\f102"; }
+
+/* line 1282, semantic-ui/elements/_icon.scss */
+i.icon.angle.double.down:before {
+  content: "\f103"; }
+
+/* line 1285, semantic-ui/elements/_icon.scss */
+i.icon.angle.left:before {
+  content: "\f104"; }
+
+/* line 1288, semantic-ui/elements/_icon.scss */
+i.icon.angle.right:before {
+  content: "\f105"; }
+
+/* line 1291, semantic-ui/elements/_icon.scss */
+i.icon.angle.up:before {
+  content: "\f106"; }
+
+/* line 1294, semantic-ui/elements/_icon.scss */
+i.icon.angle.down:before {
+  content: "\f107"; }
+
+/* line 1297, semantic-ui/elements/_icon.scss */
+i.icon.chevron.circle.left:before {
+  content: "\f137"; }
+
+/* line 1300, semantic-ui/elements/_icon.scss */
+i.icon.chevron.circle.right:before {
+  content: "\f138"; }
+
+/* line 1303, semantic-ui/elements/_icon.scss */
+i.icon.chevron.circle.up:before {
+  content: "\f139"; }
+
+/* line 1306, semantic-ui/elements/_icon.scss */
+i.icon.chevron.circle.down:before {
+  content: "\f13a"; }
+
+/* line 1309, semantic-ui/elements/_icon.scss */
+i.icon.toggle.down:before {
+  content: "\f150"; }
+
+/* line 1312, semantic-ui/elements/_icon.scss */
+i.icon.toggle.up:before {
+  content: "\f151"; }
+
+/* line 1315, semantic-ui/elements/_icon.scss */
+i.icon.toggle.right:before {
+  content: "\f152"; }
+
+/* line 1318, semantic-ui/elements/_icon.scss */
+i.icon.long.arrow.down:before {
+  content: "\f175"; }
+
+/* line 1321, semantic-ui/elements/_icon.scss */
+i.icon.long.arrow.up:before {
+  content: "\f176"; }
+
+/* line 1324, semantic-ui/elements/_icon.scss */
+i.icon.long.arrow.left:before {
+  content: "\f177"; }
+
+/* line 1327, semantic-ui/elements/_icon.scss */
+i.icon.long.arrow.right:before {
+  content: "\f178"; }
+
+/* line 1330, semantic-ui/elements/_icon.scss */
+i.icon.arrow.circle.outline.right:before {
+  content: "\f18e"; }
+
+/* line 1333, semantic-ui/elements/_icon.scss */
+i.icon.arrow.circle.outline.left:before {
+  content: "\f190"; }
+
+/* line 1336, semantic-ui/elements/_icon.scss */
+i.icon.toggle.left:before {
+  content: "\f191"; }
+
+/* Computer */
+/* line 1341, semantic-ui/elements/_icon.scss */
+i.icon.power:before {
+  content: "\f011"; }
+
+/* line 1344, semantic-ui/elements/_icon.scss */
+i.icon.trash:before {
+  content: "\f1f8"; }
+
+/* line 1347, semantic-ui/elements/_icon.scss */
+i.icon.trash.outline:before {
+  content: "\f014"; }
+
+/* line 1350, semantic-ui/elements/_icon.scss */
+i.icon.disk.outline:before {
+  content: "\f0a0"; }
+
+/* line 1353, semantic-ui/elements/_icon.scss */
+i.icon.desktop:before {
+  content: "\f108"; }
+
+/* line 1356, semantic-ui/elements/_icon.scss */
+i.icon.laptop:before {
+  content: "\f109"; }
+
+/* line 1359, semantic-ui/elements/_icon.scss */
+i.icon.tablet:before {
+  content: "\f10a"; }
+
+/* line 1362, semantic-ui/elements/_icon.scss */
+i.icon.mobile:before {
+  content: "\f10b"; }
+
+/* line 1365, semantic-ui/elements/_icon.scss */
+i.icon.game:before {
+  content: "\f11b"; }
+
+/* line 1368, semantic-ui/elements/_icon.scss */
+i.icon.keyboard:before {
+  content: "\f11c"; }
+
+/* line 1371, semantic-ui/elements/_icon.scss */
+i.icon.plug:before {
+  content: "\f1e6"; }
+
+/* File System */
+/* line 1376, semantic-ui/elements/_icon.scss */
+i.icon.folder:before {
+  content: "\f07b"; }
+
+/* line 1379, semantic-ui/elements/_icon.scss */
+i.icon.folder.open:before {
+  content: "\f07c"; }
+
+/* line 1382, semantic-ui/elements/_icon.scss */
+i.icon.level.up:before {
+  content: "\f148"; }
+
+/* line 1385, semantic-ui/elements/_icon.scss */
+i.icon.level.down:before {
+  content: "\f149"; }
+
+/* line 1388, semantic-ui/elements/_icon.scss */
+i.icon.file:before {
+  content: "\f15b"; }
+
+/* line 1391, semantic-ui/elements/_icon.scss */
+i.icon.file.outline:before {
+  content: "\f016"; }
+
+/* line 1394, semantic-ui/elements/_icon.scss */
+i.icon.file.text:before {
+  content: "\f15c"; }
+
+/* line 1397, semantic-ui/elements/_icon.scss */
+i.icon.file.text.outline:before {
+  content: "\f0f6"; }
+
+/* line 1400, semantic-ui/elements/_icon.scss */
+i.icon.folder.outline:before {
+  content: "\f114"; }
+
+/* line 1403, semantic-ui/elements/_icon.scss */
+i.icon.folder.open.outline:before {
+  content: "\f115"; }
+
+/* line 1406, semantic-ui/elements/_icon.scss */
+i.icon.file.pdf.outline:before {
+  content: "\f1c1"; }
+
+/* line 1409, semantic-ui/elements/_icon.scss */
+i.icon.file.word.outline:before {
+  content: "\f1c2"; }
+
+/* line 1412, semantic-ui/elements/_icon.scss */
+i.icon.file.excel.outline:before {
+  content: "\f1c3"; }
+
+/* line 1415, semantic-ui/elements/_icon.scss */
+i.icon.file.powerpoint.outline:before {
+  content: "\f1c4"; }
+
+/* line 1418, semantic-ui/elements/_icon.scss */
+i.icon.file.image.outline:before {
+  content: "\f1c5"; }
+
+/* line 1421, semantic-ui/elements/_icon.scss */
+i.icon.file.archive.outline:before {
+  content: "\f1c6"; }
+
+/* line 1424, semantic-ui/elements/_icon.scss */
+i.icon.file.audio.outline:before {
+  content: "\f1c7"; }
+
+/* line 1427, semantic-ui/elements/_icon.scss */
+i.icon.file.video.outline:before {
+  content: "\f1c8"; }
+
+/* line 1430, semantic-ui/elements/_icon.scss */
+i.icon.file.code.outline:before {
+  content: "\f1c9"; }
+
+/* Technologies */
+/* line 1435, semantic-ui/elements/_icon.scss */
+i.icon.barcode:before {
+  content: "\f02a"; }
+
+/* line 1438, semantic-ui/elements/_icon.scss */
+i.icon.qrcode:before {
+  content: "\f029"; }
+
+/* line 1441, semantic-ui/elements/_icon.scss */
+i.icon.fork:before {
+  content: "\f126"; }
+
+/* line 1444, semantic-ui/elements/_icon.scss */
+i.icon.html5:before {
+  content: "\f13b"; }
+
+/* line 1447, semantic-ui/elements/_icon.scss */
+i.icon.css3:before {
+  content: "\f13c"; }
+
+/* line 1450, semantic-ui/elements/_icon.scss */
+i.icon.rss:before {
+  content: "\f09e"; }
+
+/* line 1453, semantic-ui/elements/_icon.scss */
+i.icon.rss.square:before {
+  content: "\f143"; }
+
+/* line 1456, semantic-ui/elements/_icon.scss */
+i.icon.openid:before {
+  content: "\f19b"; }
+
+/* line 1459, semantic-ui/elements/_icon.scss */
+i.icon.database:before {
+  content: "\f1c0"; }
+
+/* line 1462, semantic-ui/elements/_icon.scss */
+i.icon.server:before {
+  content: "\f233"; }
+
+/* Rating */
+/* line 1467, semantic-ui/elements/_icon.scss */
+i.icon.heart:before {
+  content: "\f004"; }
+
+/* line 1470, semantic-ui/elements/_icon.scss */
+i.icon.star:before {
+  content: "\f005"; }
+
+/* line 1473, semantic-ui/elements/_icon.scss */
+i.icon.empty.star:before {
+  content: "\f006"; }
+
+/* line 1476, semantic-ui/elements/_icon.scss */
+i.icon.thumbs.outline.up:before {
+  content: "\f087"; }
+
+/* line 1479, semantic-ui/elements/_icon.scss */
+i.icon.thumbs.outline.down:before {
+  content: "\f088"; }
+
+/* line 1482, semantic-ui/elements/_icon.scss */
+i.icon.star.half:before {
+  content: "\f089"; }
+
+/* line 1485, semantic-ui/elements/_icon.scss */
+i.icon.empty.heart:before {
+  content: "\f08a"; }
+
+/* line 1488, semantic-ui/elements/_icon.scss */
+i.icon.smile:before {
+  content: "\f118"; }
+
+/* line 1491, semantic-ui/elements/_icon.scss */
+i.icon.frown:before {
+  content: "\f119"; }
+
+/* line 1494, semantic-ui/elements/_icon.scss */
+i.icon.meh:before {
+  content: "\f11a"; }
+
+/* line 1497, semantic-ui/elements/_icon.scss */
+i.icon.star.half.empty:before {
+  content: "\f123"; }
+
+/* line 1500, semantic-ui/elements/_icon.scss */
+i.icon.thumbs.up:before {
+  content: "\f164"; }
+
+/* line 1503, semantic-ui/elements/_icon.scss */
+i.icon.thumbs.down:before {
+  content: "\f165"; }
+
+/* Audio */
+/* line 1508, semantic-ui/elements/_icon.scss */
+i.icon.music:before {
+  content: "\f001"; }
+
+/* line 1511, semantic-ui/elements/_icon.scss */
+i.icon.video.play.outline:before {
+  content: "\f01d"; }
+
+/* line 1514, semantic-ui/elements/_icon.scss */
+i.icon.volume.off:before {
+  content: "\f026"; }
+
+/* line 1517, semantic-ui/elements/_icon.scss */
+i.icon.volume.down:before {
+  content: "\f027"; }
+
+/* line 1520, semantic-ui/elements/_icon.scss */
+i.icon.volume.up:before {
+  content: "\f028"; }
+
+/* line 1523, semantic-ui/elements/_icon.scss */
+i.icon.record:before {
+  content: "\f03d"; }
+
+/* line 1526, semantic-ui/elements/_icon.scss */
+i.icon.step.backward:before {
+  content: "\f048"; }
+
+/* line 1529, semantic-ui/elements/_icon.scss */
+i.icon.fast.backward:before {
+  content: "\f049"; }
+
+/* line 1532, semantic-ui/elements/_icon.scss */
+i.icon.backward:before {
+  content: "\f04a"; }
+
+/* line 1535, semantic-ui/elements/_icon.scss */
+i.icon.play:before {
+  content: "\f04b"; }
+
+/* line 1538, semantic-ui/elements/_icon.scss */
+i.icon.pause:before {
+  content: "\f04c"; }
+
+/* line 1541, semantic-ui/elements/_icon.scss */
+i.icon.stop:before {
+  content: "\f04d"; }
+
+/* line 1544, semantic-ui/elements/_icon.scss */
+i.icon.forward:before {
+  content: "\f04e"; }
+
+/* line 1547, semantic-ui/elements/_icon.scss */
+i.icon.fast.forward:before {
+  content: "\f050"; }
+
+/* line 1550, semantic-ui/elements/_icon.scss */
+i.icon.step.forward:before {
+  content: "\f051"; }
+
+/* line 1553, semantic-ui/elements/_icon.scss */
+i.icon.eject:before {
+  content: "\f052"; }
+
+/* line 1556, semantic-ui/elements/_icon.scss */
+i.icon.unmute:before {
+  content: "\f130"; }
+
+/* line 1559, semantic-ui/elements/_icon.scss */
+i.icon.mute:before {
+  content: "\f131"; }
+
+/* line 1562, semantic-ui/elements/_icon.scss */
+i.icon.video.play:before {
+  content: "\f144"; }
+
+/* line 1565, semantic-ui/elements/_icon.scss */
+i.icon.closed.captioning:before {
+  content: "\f20a"; }
+
+/* Map, Locations, & Transportation */
+/* line 1570, semantic-ui/elements/_icon.scss */
+i.icon.marker:before {
+  content: "\f041"; }
+
+/* line 1573, semantic-ui/elements/_icon.scss */
+i.icon.coffee:before {
+  content: "\f0f4"; }
+
+/* line 1576, semantic-ui/elements/_icon.scss */
+i.icon.food:before {
+  content: "\f0f5"; }
+
+/* line 1579, semantic-ui/elements/_icon.scss */
+i.icon.building.outline:before {
+  content: "\f0f7"; }
+
+/* line 1582, semantic-ui/elements/_icon.scss */
+i.icon.hospital:before {
+  content: "\f0f8"; }
+
+/* line 1585, semantic-ui/elements/_icon.scss */
+i.icon.emergency:before {
+  content: "\f0f9"; }
+
+/* line 1588, semantic-ui/elements/_icon.scss */
+i.icon.first.aid:before {
+  content: "\f0fa"; }
+
+/* line 1591, semantic-ui/elements/_icon.scss */
+i.icon.military:before {
+  content: "\f0fb"; }
+
+/* line 1594, semantic-ui/elements/_icon.scss */
+i.icon.h:before {
+  content: "\f0fd"; }
+
+/* line 1597, semantic-ui/elements/_icon.scss */
+i.icon.location.arrow:before {
+  content: "\f124"; }
+
+/* line 1600, semantic-ui/elements/_icon.scss */
+i.icon.space.shuttle:before {
+  content: "\f197"; }
+
+/* line 1603, semantic-ui/elements/_icon.scss */
+i.icon.university:before {
+  content: "\f19c"; }
+
+/* line 1606, semantic-ui/elements/_icon.scss */
+i.icon.building:before {
+  content: "\f1ad"; }
+
+/* line 1609, semantic-ui/elements/_icon.scss */
+i.icon.paw:before {
+  content: "\f1b0"; }
+
+/* line 1612, semantic-ui/elements/_icon.scss */
+i.icon.spoon:before {
+  content: "\f1b1"; }
+
+/* line 1615, semantic-ui/elements/_icon.scss */
+i.icon.car:before {
+  content: "\f1b9"; }
+
+/* line 1618, semantic-ui/elements/_icon.scss */
+i.icon.taxi:before {
+  content: "\f1ba"; }
+
+/* line 1621, semantic-ui/elements/_icon.scss */
+i.icon.tree:before {
+  content: "\f1bb"; }
+
+/* line 1624, semantic-ui/elements/_icon.scss */
+i.icon.bicycle:before {
+  content: "\f206"; }
+
+/* line 1627, semantic-ui/elements/_icon.scss */
+i.icon.bus:before {
+  content: "\f207"; }
+
+/* line 1630, semantic-ui/elements/_icon.scss */
+i.icon.ship:before {
+  content: "\f21a"; }
+
+/* line 1633, semantic-ui/elements/_icon.scss */
+i.icon.motorcycle:before {
+  content: "\f21c"; }
+
+/* line 1636, semantic-ui/elements/_icon.scss */
+i.icon.street.view:before {
+  content: "\f21d"; }
+
+/* line 1639, semantic-ui/elements/_icon.scss */
+i.icon.hotel:before {
+  content: "\f236"; }
+
+/* line 1642, semantic-ui/elements/_icon.scss */
+i.icon.train:before {
+  content: "\f238"; }
+
+/* line 1645, semantic-ui/elements/_icon.scss */
+i.icon.subway:before {
+  content: "\f239"; }
+
+/* Tables */
+/* line 1650, semantic-ui/elements/_icon.scss */
+i.icon.table:before {
+  content: "\f0ce"; }
+
+/* line 1653, semantic-ui/elements/_icon.scss */
+i.icon.columns:before {
+  content: "\f0db"; }
+
+/* line 1656, semantic-ui/elements/_icon.scss */
+i.icon.sort:before {
+  content: "\f0dc"; }
+
+/* line 1659, semantic-ui/elements/_icon.scss */
+i.icon.sort.ascending:before {
+  content: "\f0de"; }
+
+/* line 1662, semantic-ui/elements/_icon.scss */
+i.icon.sort.descending:before {
+  content: "\f0dd"; }
+
+/* line 1665, semantic-ui/elements/_icon.scss */
+i.icon.sort.alphabet.ascending:before {
+  content: "\f15d"; }
+
+/* line 1668, semantic-ui/elements/_icon.scss */
+i.icon.sort.alphabet.descending:before {
+  content: "\f15e"; }
+
+/* line 1671, semantic-ui/elements/_icon.scss */
+i.icon.sort.content.ascending:before {
+  content: "\f160"; }
+
+/* line 1674, semantic-ui/elements/_icon.scss */
+i.icon.sort.content.descending:before {
+  content: "\f161"; }
+
+/* line 1677, semantic-ui/elements/_icon.scss */
+i.icon.sort.numeric.ascending:before {
+  content: "\f162"; }
+
+/* line 1680, semantic-ui/elements/_icon.scss */
+i.icon.sort.numeric.descending:before {
+  content: "\f163"; }
+
+/* Text Editor */
+/* line 1685, semantic-ui/elements/_icon.scss */
+i.icon.font:before {
+  content: "\f031"; }
+
+/* line 1688, semantic-ui/elements/_icon.scss */
+i.icon.bold:before {
+  content: "\f032"; }
+
+/* line 1691, semantic-ui/elements/_icon.scss */
+i.icon.italic:before {
+  content: "\f033"; }
+
+/* line 1694, semantic-ui/elements/_icon.scss */
+i.icon.text.height:before {
+  content: "\f034"; }
+
+/* line 1697, semantic-ui/elements/_icon.scss */
+i.icon.text.width:before {
+  content: "\f035"; }
+
+/* line 1700, semantic-ui/elements/_icon.scss */
+i.icon.align.left:before {
+  content: "\f036"; }
+
+/* line 1703, semantic-ui/elements/_icon.scss */
+i.icon.align.center:before {
+  content: "\f037"; }
+
+/* line 1706, semantic-ui/elements/_icon.scss */
+i.icon.align.right:before {
+  content: "\f038"; }
+
+/* line 1709, semantic-ui/elements/_icon.scss */
+i.icon.align.justify:before {
+  content: "\f039"; }
+
+/* line 1712, semantic-ui/elements/_icon.scss */
+i.icon.list:before {
+  content: "\f03a"; }
+
+/* line 1715, semantic-ui/elements/_icon.scss */
+i.icon.outdent:before {
+  content: "\f03b"; }
+
+/* line 1718, semantic-ui/elements/_icon.scss */
+i.icon.indent:before {
+  content: "\f03c"; }
+
+/* line 1721, semantic-ui/elements/_icon.scss */
+i.icon.linkify:before {
+  content: "\f0c1"; }
+
+/* line 1724, semantic-ui/elements/_icon.scss */
+i.icon.cut:before {
+  content: "\f0c4"; }
+
+/* line 1727, semantic-ui/elements/_icon.scss */
+i.icon.copy:before {
+  content: "\f0c5"; }
+
+/* line 1730, semantic-ui/elements/_icon.scss */
+i.icon.attach:before {
+  content: "\f0c6"; }
+
+/* line 1733, semantic-ui/elements/_icon.scss */
+i.icon.save:before {
+  content: "\f0c7"; }
+
+/* line 1736, semantic-ui/elements/_icon.scss */
+i.icon.content:before {
+  content: "\f0c9"; }
+
+/* line 1739, semantic-ui/elements/_icon.scss */
+i.icon.unordered.list:before {
+  content: "\f0ca"; }
+
+/* line 1742, semantic-ui/elements/_icon.scss */
+i.icon.ordered.list:before {
+  content: "\f0cb"; }
+
+/* line 1745, semantic-ui/elements/_icon.scss */
+i.icon.strikethrough:before {
+  content: "\f0cc"; }
+
+/* line 1748, semantic-ui/elements/_icon.scss */
+i.icon.underline:before {
+  content: "\f0cd"; }
+
+/* line 1751, semantic-ui/elements/_icon.scss */
+i.icon.paste:before {
+  content: "\f0ea"; }
+
+/* line 1754, semantic-ui/elements/_icon.scss */
+i.icon.unlink:before {
+  content: "\f127"; }
+
+/* line 1757, semantic-ui/elements/_icon.scss */
+i.icon.superscript:before {
+  content: "\f12b"; }
+
+/* line 1760, semantic-ui/elements/_icon.scss */
+i.icon.subscript:before {
+  content: "\f12c"; }
+
+/* line 1763, semantic-ui/elements/_icon.scss */
+i.icon.header:before {
+  content: "\f1dc"; }
+
+/* line 1766, semantic-ui/elements/_icon.scss */
+i.icon.paragraph:before {
+  content: "\f1dd"; }
+
+/* Currency */
+/* line 1771, semantic-ui/elements/_icon.scss */
+i.icon.euro:before {
+  content: "\f153"; }
+
+/* line 1774, semantic-ui/elements/_icon.scss */
+i.icon.pound:before {
+  content: "\f154"; }
+
+/* line 1777, semantic-ui/elements/_icon.scss */
+i.icon.dollar:before {
+  content: "\f155"; }
+
+/* line 1780, semantic-ui/elements/_icon.scss */
+i.icon.rupee:before {
+  content: "\f156"; }
+
+/* line 1783, semantic-ui/elements/_icon.scss */
+i.icon.yen:before {
+  content: "\f157"; }
+
+/* line 1786, semantic-ui/elements/_icon.scss */
+i.icon.ruble:before {
+  content: "\f158"; }
+
+/* line 1789, semantic-ui/elements/_icon.scss */
+i.icon.won:before {
+  content: "\f159"; }
+
+/* line 1792, semantic-ui/elements/_icon.scss */
+i.icon.lira:before {
+  content: "\f195"; }
+
+/* line 1795, semantic-ui/elements/_icon.scss */
+i.icon.shekel:before {
+  content: "\f20b"; }
+
+/* Payment Options */
+/* line 1800, semantic-ui/elements/_icon.scss */
+i.icon.paypal:before {
+  content: "\f1ed"; }
+
+/* line 1803, semantic-ui/elements/_icon.scss */
+i.icon.paypal.card:before {
+  content: "\f1f4"; }
+
+/* line 1806, semantic-ui/elements/_icon.scss */
+i.icon.google.wallet:before {
+  content: "\f1ee"; }
+
+/* line 1809, semantic-ui/elements/_icon.scss */
+i.icon.visa:before {
+  content: "\f1f0"; }
+
+/* line 1812, semantic-ui/elements/_icon.scss */
+i.icon.mastercard:before {
+  content: "\f1f1"; }
+
+/* line 1815, semantic-ui/elements/_icon.scss */
+i.icon.discover:before {
+  content: "\f1f2"; }
+
+/* line 1818, semantic-ui/elements/_icon.scss */
+i.icon.american.express:before {
+  content: "\f1f3"; }
+
+/* line 1821, semantic-ui/elements/_icon.scss */
+i.icon.stripe:before {
+  content: "\f1f5"; }
+
+/* Networks and Websites*/
+/* line 1825, semantic-ui/elements/_icon.scss */
+i.icon.twitter.square:before {
+  content: "\f081"; }
+
+/* line 1828, semantic-ui/elements/_icon.scss */
+i.icon.facebook.square:before {
+  content: "\f082"; }
+
+/* line 1831, semantic-ui/elements/_icon.scss */
+i.icon.linkedin.square:before {
+  content: "\f08c"; }
+
+/* line 1834, semantic-ui/elements/_icon.scss */
+i.icon.github.square:before {
+  content: "\f092"; }
+
+/* line 1837, semantic-ui/elements/_icon.scss */
+i.icon.twitter:before {
+  content: "\f099"; }
+
+/* line 1840, semantic-ui/elements/_icon.scss */
+i.icon.facebook:before {
+  content: "\f09a"; }
+
+/* line 1843, semantic-ui/elements/_icon.scss */
+i.icon.github:before {
+  content: "\f09b"; }
+
+/* line 1846, semantic-ui/elements/_icon.scss */
+i.icon.pinterest:before {
+  content: "\f0d2"; }
+
+/* line 1849, semantic-ui/elements/_icon.scss */
+i.icon.pinterest.square:before {
+  content: "\f0d3"; }
+
+/* line 1852, semantic-ui/elements/_icon.scss */
+i.icon.google.plus.square:before {
+  content: "\f0d4"; }
+
+/* line 1855, semantic-ui/elements/_icon.scss */
+i.icon.google.plus:before {
+  content: "\f0d5"; }
+
+/* line 1858, semantic-ui/elements/_icon.scss */
+i.icon.linkedin:before {
+  content: "\f0e1"; }
+
+/* line 1861, semantic-ui/elements/_icon.scss */
+i.icon.github.alternate:before {
+  content: "\f113"; }
+
+/* line 1864, semantic-ui/elements/_icon.scss */
+i.icon.maxcdn:before {
+  content: "\f136"; }
+
+/* line 1867, semantic-ui/elements/_icon.scss */
+i.icon.bitcoin:before {
+  content: "\f15a"; }
+
+/* line 1870, semantic-ui/elements/_icon.scss */
+i.icon.youtube.square:before {
+  content: "\f166"; }
+
+/* line 1873, semantic-ui/elements/_icon.scss */
+i.icon.youtube:before {
+  content: "\f167"; }
+
+/* line 1876, semantic-ui/elements/_icon.scss */
+i.icon.xing:before {
+  content: "\f168"; }
+
+/* line 1879, semantic-ui/elements/_icon.scss */
+i.icon.xing.square:before {
+  content: "\f169"; }
+
+/* line 1882, semantic-ui/elements/_icon.scss */
+i.icon.youtube.play:before {
+  content: "\f16a"; }
+
+/* line 1885, semantic-ui/elements/_icon.scss */
+i.icon.dropbox:before {
+  content: "\f16b"; }
+
+/* line 1888, semantic-ui/elements/_icon.scss */
+i.icon.stack.overflow:before {
+  content: "\f16c"; }
+
+/* line 1891, semantic-ui/elements/_icon.scss */
+i.icon.instagram:before {
+  content: "\f16d"; }
+
+/* line 1894, semantic-ui/elements/_icon.scss */
+i.icon.flickr:before {
+  content: "\f16e"; }
+
+/* line 1897, semantic-ui/elements/_icon.scss */
+i.icon.adn:before {
+  content: "\f170"; }
+
+/* line 1900, semantic-ui/elements/_icon.scss */
+i.icon.bitbucket:before {
+  content: "\f171"; }
+
+/* line 1903, semantic-ui/elements/_icon.scss */
+i.icon.bitbucket.square:before {
+  content: "\f172"; }
+
+/* line 1906, semantic-ui/elements/_icon.scss */
+i.icon.tumblr:before {
+  content: "\f173"; }
+
+/* line 1909, semantic-ui/elements/_icon.scss */
+i.icon.tumblr.square:before {
+  content: "\f174"; }
+
+/* line 1912, semantic-ui/elements/_icon.scss */
+i.icon.apple:before {
+  content: "\f179"; }
+
+/* line 1915, semantic-ui/elements/_icon.scss */
+i.icon.windows:before {
+  content: "\f17a"; }
+
+/* line 1918, semantic-ui/elements/_icon.scss */
+i.icon.android:before {
+  content: "\f17b"; }
+
+/* line 1921, semantic-ui/elements/_icon.scss */
+i.icon.linux:before {
+  content: "\f17c"; }
+
+/* line 1924, semantic-ui/elements/_icon.scss */
+i.icon.dribbble:before {
+  content: "\f17d"; }
+
+/* line 1927, semantic-ui/elements/_icon.scss */
+i.icon.skype:before {
+  content: "\f17e"; }
+
+/* line 1930, semantic-ui/elements/_icon.scss */
+i.icon.foursquare:before {
+  content: "\f180"; }
+
+/* line 1933, semantic-ui/elements/_icon.scss */
+i.icon.trello:before {
+  content: "\f181"; }
+
+/* line 1936, semantic-ui/elements/_icon.scss */
+i.icon.gittip:before {
+  content: "\f184"; }
+
+/* line 1939, semantic-ui/elements/_icon.scss */
+i.icon.vk:before {
+  content: "\f189"; }
+
+/* line 1942, semantic-ui/elements/_icon.scss */
+i.icon.weibo:before {
+  content: "\f18a"; }
+
+/* line 1945, semantic-ui/elements/_icon.scss */
+i.icon.renren:before {
+  content: "\f18b"; }
+
+/* line 1948, semantic-ui/elements/_icon.scss */
+i.icon.pagelines:before {
+  content: "\f18c"; }
+
+/* line 1951, semantic-ui/elements/_icon.scss */
+i.icon.stack.exchange:before {
+  content: "\f18d"; }
+
+/* line 1954, semantic-ui/elements/_icon.scss */
+i.icon.vimeo:before {
+  content: "\f194"; }
+
+/* line 1957, semantic-ui/elements/_icon.scss */
+i.icon.slack:before {
+  content: "\f198"; }
+
+/* line 1960, semantic-ui/elements/_icon.scss */
+i.icon.wordpress:before {
+  content: "\f19a"; }
+
+/* line 1963, semantic-ui/elements/_icon.scss */
+i.icon.yahoo:before {
+  content: "\f19e"; }
+
+/* line 1966, semantic-ui/elements/_icon.scss */
+i.icon.google:before {
+  content: "\f1a0"; }
+
+/* line 1969, semantic-ui/elements/_icon.scss */
+i.icon.reddit:before {
+  content: "\f1a1"; }
+
+/* line 1972, semantic-ui/elements/_icon.scss */
+i.icon.reddit.square:before {
+  content: "\f1a2"; }
+
+/* line 1975, semantic-ui/elements/_icon.scss */
+i.icon.stumbleupon.circle:before {
+  content: "\f1a3"; }
+
+/* line 1978, semantic-ui/elements/_icon.scss */
+i.icon.stumbleupon:before {
+  content: "\f1a4"; }
+
+/* line 1981, semantic-ui/elements/_icon.scss */
+i.icon.delicious:before {
+  content: "\f1a5"; }
+
+/* line 1984, semantic-ui/elements/_icon.scss */
+i.icon.digg:before {
+  content: "\f1a6"; }
+
+/* line 1987, semantic-ui/elements/_icon.scss */
+i.icon.pied.piper:before {
+  content: "\f1a7"; }
+
+/* line 1990, semantic-ui/elements/_icon.scss */
+i.icon.pied.piper.alternate:before {
+  content: "\f1a8"; }
+
+/* line 1993, semantic-ui/elements/_icon.scss */
+i.icon.drupal:before {
+  content: "\f1a9"; }
+
+/* line 1996, semantic-ui/elements/_icon.scss */
+i.icon.joomla:before {
+  content: "\f1aa"; }
+
+/* line 1999, semantic-ui/elements/_icon.scss */
+i.icon.behance:before {
+  content: "\f1b4"; }
+
+/* line 2002, semantic-ui/elements/_icon.scss */
+i.icon.behance.square:before {
+  content: "\f1b5"; }
+
+/* line 2005, semantic-ui/elements/_icon.scss */
+i.icon.steam:before {
+  content: "\f1b6"; }
+
+/* line 2008, semantic-ui/elements/_icon.scss */
+i.icon.steam.square:before {
+  content: "\f1b7"; }
+
+/* line 2011, semantic-ui/elements/_icon.scss */
+i.icon.spotify:before {
+  content: "\f1bc"; }
+
+/* line 2014, semantic-ui/elements/_icon.scss */
+i.icon.deviantart:before {
+  content: "\f1bd"; }
+
+/* line 2017, semantic-ui/elements/_icon.scss */
+i.icon.soundcloud:before {
+  content: "\f1be"; }
+
+/* line 2020, semantic-ui/elements/_icon.scss */
+i.icon.vine:before {
+  content: "\f1ca"; }
+
+/* line 2023, semantic-ui/elements/_icon.scss */
+i.icon.codepen:before {
+  content: "\f1cb"; }
+
+/* line 2026, semantic-ui/elements/_icon.scss */
+i.icon.jsfiddle:before {
+  content: "\f1cc"; }
+
+/* line 2029, semantic-ui/elements/_icon.scss */
+i.icon.rebel:before {
+  content: "\f1d0"; }
+
+/* line 2032, semantic-ui/elements/_icon.scss */
+i.icon.empire:before {
+  content: "\f1d1"; }
+
+/* line 2035, semantic-ui/elements/_icon.scss */
+i.icon.git.square:before {
+  content: "\f1d2"; }
+
+/* line 2038, semantic-ui/elements/_icon.scss */
+i.icon.git:before {
+  content: "\f1d3"; }
+
+/* line 2041, semantic-ui/elements/_icon.scss */
+i.icon.hacker.news:before {
+  content: "\f1d4"; }
+
+/* line 2044, semantic-ui/elements/_icon.scss */
+i.icon.tencent.weibo:before {
+  content: "\f1d5"; }
+
+/* line 2047, semantic-ui/elements/_icon.scss */
+i.icon.qq:before {
+  content: "\f1d6"; }
+
+/* line 2050, semantic-ui/elements/_icon.scss */
+i.icon.wechat:before {
+  content: "\f1d7"; }
+
+/* line 2053, semantic-ui/elements/_icon.scss */
+i.icon.slideshare:before {
+  content: "\f1e7"; }
+
+/* line 2056, semantic-ui/elements/_icon.scss */
+i.icon.twitch:before {
+  content: "\f1e8"; }
+
+/* line 2059, semantic-ui/elements/_icon.scss */
+i.icon.yelp:before {
+  content: "\f1e9"; }
+
+/* line 2062, semantic-ui/elements/_icon.scss */
+i.icon.lastfm:before {
+  content: "\f202"; }
+
+/* line 2065, semantic-ui/elements/_icon.scss */
+i.icon.lastfm.square:before {
+  content: "\f203"; }
+
+/* line 2068, semantic-ui/elements/_icon.scss */
+i.icon.ioxhost:before {
+  content: "\f208"; }
+
+/* line 2071, semantic-ui/elements/_icon.scss */
+i.icon.angellist:before {
+  content: "\f209"; }
+
+/* line 2074, semantic-ui/elements/_icon.scss */
+i.icon.meanpath:before {
+  content: "\f20c"; }
+
+/* line 2077, semantic-ui/elements/_icon.scss */
+i.icon.buysellads:before {
+  content: "\f20d"; }
+
+/* line 2080, semantic-ui/elements/_icon.scss */
+i.icon.connectdevelop:before {
+  content: "\f20e"; }
+
+/* line 2083, semantic-ui/elements/_icon.scss */
+i.icon.dashcube:before {
+  content: "\f210"; }
+
+/* line 2086, semantic-ui/elements/_icon.scss */
+i.icon.forumbee:before {
+  content: "\f211"; }
+
+/* line 2089, semantic-ui/elements/_icon.scss */
+i.icon.leanpub:before {
+  content: "\f212"; }
+
+/* line 2092, semantic-ui/elements/_icon.scss */
+i.icon.sellsy:before {
+  content: "\f213"; }
+
+/* line 2095, semantic-ui/elements/_icon.scss */
+i.icon.shirtsinbulk:before {
+  content: "\f214"; }
+
+/* line 2098, semantic-ui/elements/_icon.scss */
+i.icon.simplybuilt:before {
+  content: "\f215"; }
+
+/* line 2101, semantic-ui/elements/_icon.scss */
+i.icon.skyatlas:before {
+  content: "\f216"; }
+
+/* line 2104, semantic-ui/elements/_icon.scss */
+i.icon.whatsapp:before {
+  content: "\f232"; }
+
+/* line 2107, semantic-ui/elements/_icon.scss */
+i.icon.viacoin:before {
+  content: "\f237"; }
+
+/* line 2110, semantic-ui/elements/_icon.scss */
+i.icon.medium:before {
+  content: "\f23a"; }
+
+/*******************************
+            Aliases
+*******************************/
+/* line 2119, semantic-ui/elements/_icon.scss */
+i.icon.like:before {
+  content: "\f004"; }
+
+/* line 2122, semantic-ui/elements/_icon.scss */
+i.icon.favorite:before {
+  content: "\f005"; }
+
+/* line 2125, semantic-ui/elements/_icon.scss */
+i.icon.video:before {
+  content: "\f008"; }
+
+/* line 2128, semantic-ui/elements/_icon.scss */
+i.icon.check:before {
+  content: "\f00c"; }
+
+/* line 2131, semantic-ui/elements/_icon.scss */
+i.icon.close:before {
+  content: "\f00d"; }
+
+/* line 2134, semantic-ui/elements/_icon.scss */
+i.icon.cancel:before {
+  content: "\f00d"; }
+
+/* line 2137, semantic-ui/elements/_icon.scss */
+i.icon.delete:before {
+  content: "\f00d"; }
+
+/* line 2140, semantic-ui/elements/_icon.scss */
+i.icon.x:before {
+  content: "\f00d"; }
+
+/* line 2143, semantic-ui/elements/_icon.scss */
+i.icon.user.times:before {
+  content: "\f235"; }
+
+/* line 2146, semantic-ui/elements/_icon.scss */
+i.icon.user.close:before {
+  content: "\f235"; }
+
+/* line 2149, semantic-ui/elements/_icon.scss */
+i.icon.user.cancel:before {
+  content: "\f235"; }
+
+/* line 2152, semantic-ui/elements/_icon.scss */
+i.icon.user.delete:before {
+  content: "\f235"; }
+
+/* line 2155, semantic-ui/elements/_icon.scss */
+i.icon.user.x:before {
+  content: "\f235"; }
+
+/* line 2158, semantic-ui/elements/_icon.scss */
+i.icon.zoom.in:before {
+  content: "\f00e"; }
+
+/* line 2161, semantic-ui/elements/_icon.scss */
+i.icon.magnify:before {
+  content: "\f00e"; }
+
+/* line 2164, semantic-ui/elements/_icon.scss */
+i.icon.shutdown:before {
+  content: "\f011"; }
+
+/* line 2167, semantic-ui/elements/_icon.scss */
+i.icon.clock:before {
+  content: "\f017"; }
+
+/* line 2170, semantic-ui/elements/_icon.scss */
+i.icon.time:before {
+  content: "\f017"; }
+
+/* line 2173, semantic-ui/elements/_icon.scss */
+i.icon.play.circle.outline:before {
+  content: "\f01d"; }
+
+/* line 2176, semantic-ui/elements/_icon.scss */
+i.icon.headphone:before {
+  content: "\f025"; }
+
+/* line 2179, semantic-ui/elements/_icon.scss */
+i.icon.camera:before {
+  content: "\f030"; }
+
+/* line 2182, semantic-ui/elements/_icon.scss */
+i.icon.video.camera:before {
+  content: "\f03d"; }
+
+/* line 2185, semantic-ui/elements/_icon.scss */
+i.icon.picture:before {
+  content: "\f03e"; }
+
+/* line 2188, semantic-ui/elements/_icon.scss */
+i.icon.pencil:before {
+  content: "\f040"; }
+
+/* line 2191, semantic-ui/elements/_icon.scss */
+i.icon.compose:before {
+  content: "\f040"; }
+
+/* line 2194, semantic-ui/elements/_icon.scss */
+i.icon.point:before {
+  content: "\f041"; }
+
+/* line 2197, semantic-ui/elements/_icon.scss */
+i.icon.tint:before {
+  content: "\f043"; }
+
+/* line 2200, semantic-ui/elements/_icon.scss */
+i.icon.signup:before {
+  content: "\f044"; }
+
+/* line 2203, semantic-ui/elements/_icon.scss */
+i.icon.plus.circle:before {
+  content: "\f055"; }
+
+/* line 2206, semantic-ui/elements/_icon.scss */
+i.icon.dont:before {
+  content: "\f05e"; }
+
+/* line 2209, semantic-ui/elements/_icon.scss */
+i.icon.minimize:before {
+  content: "\f066"; }
+
+/* line 2212, semantic-ui/elements/_icon.scss */
+i.icon.add:before {
+  content: "\f067"; }
+
+/* line 2215, semantic-ui/elements/_icon.scss */
+i.icon.eye:before {
+  content: "\f06e"; }
+
+/* line 2218, semantic-ui/elements/_icon.scss */
+i.icon.attention:before {
+  content: "\f06a"; }
+
+/* line 2221, semantic-ui/elements/_icon.scss */
+i.icon.cart:before {
+  content: "\f07a"; }
+
+/* line 2224, semantic-ui/elements/_icon.scss */
+i.icon.shuffle:before {
+  content: "\f074"; }
+
+/* line 2227, semantic-ui/elements/_icon.scss */
+i.icon.talk:before {
+  content: "\f075"; }
+
+/* line 2230, semantic-ui/elements/_icon.scss */
+i.icon.chat:before {
+  content: "\f075"; }
+
+/* line 2233, semantic-ui/elements/_icon.scss */
+i.icon.shopping.cart:before {
+  content: "\f07a"; }
+
+/* line 2236, semantic-ui/elements/_icon.scss */
+i.icon.bar.graph:before {
+  content: "\f080"; }
+
+/* line 2239, semantic-ui/elements/_icon.scss */
+i.icon.area.graph:before {
+  content: "\f1fe"; }
+
+/* line 2242, semantic-ui/elements/_icon.scss */
+i.icon.pie.graph:before {
+  content: "\f200"; }
+
+/* line 2245, semantic-ui/elements/_icon.scss */
+i.icon.line.graph:before {
+  content: "\f201"; }
+
+/* line 2248, semantic-ui/elements/_icon.scss */
+i.icon.key:before {
+  content: "\f084"; }
+
+/* line 2251, semantic-ui/elements/_icon.scss */
+i.icon.cogs:before {
+  content: "\f085"; }
+
+/* line 2254, semantic-ui/elements/_icon.scss */
+i.icon.discussions:before {
+  content: "\f086"; }
+
+/* line 2257, semantic-ui/elements/_icon.scss */
+i.icon.like.outline:before {
+  content: "\f087"; }
+
+/* line 2260, semantic-ui/elements/_icon.scss */
+i.icon.dislike.outline:before {
+  content: "\f088"; }
+
+/* line 2263, semantic-ui/elements/_icon.scss */
+i.icon.heart.outline:before {
+  content: "\f08a"; }
+
+/* line 2266, semantic-ui/elements/_icon.scss */
+i.icon.log.out:before {
+  content: "\f08b"; }
+
+/* line 2269, semantic-ui/elements/_icon.scss */
+i.icon.thumb.tack:before {
+  content: "\f08d"; }
+
+/* line 2272, semantic-ui/elements/_icon.scss */
+i.icon.winner:before {
+  content: "\f091"; }
+
+/* line 2275, semantic-ui/elements/_icon.scss */
+i.icon.bookmark.outline:before {
+  content: "\f097"; }
+
+/* line 2278, semantic-ui/elements/_icon.scss */
+i.icon.phone:before {
+  content: "\f095"; }
+
+/* line 2281, semantic-ui/elements/_icon.scss */
+i.icon.phone.square:before {
+  content: "\f098"; }
+
+/* line 2284, semantic-ui/elements/_icon.scss */
+i.icon.credit.card:before {
+  content: "\f09d"; }
+
+/* line 2287, semantic-ui/elements/_icon.scss */
+i.icon.hdd.outline:before {
+  content: "\f0a0"; }
+
+/* line 2290, semantic-ui/elements/_icon.scss */
+i.icon.bullhorn:before {
+  content: "\f0a1"; }
+
+/* line 2293, semantic-ui/elements/_icon.scss */
+i.icon.bell:before {
+  content: "\f0f3"; }
+
+/* line 2296, semantic-ui/elements/_icon.scss */
+i.icon.bell.outline:before {
+  content: "\f0a2"; }
+
+/* line 2299, semantic-ui/elements/_icon.scss */
+i.icon.bell.slash:before {
+  content: "\f1f6"; }
+
+/* line 2302, semantic-ui/elements/_icon.scss */
+i.icon.bell.slash.outline:before {
+  content: "\f1f7"; }
+
+/* line 2305, semantic-ui/elements/_icon.scss */
+i.icon.hand.outline.right:before {
+  content: "\f0a4"; }
+
+/* line 2308, semantic-ui/elements/_icon.scss */
+i.icon.hand.outline.left:before {
+  content: "\f0a5"; }
+
+/* line 2311, semantic-ui/elements/_icon.scss */
+i.icon.hand.outline.up:before {
+  content: "\f0a6"; }
+
+/* line 2314, semantic-ui/elements/_icon.scss */
+i.icon.hand.outline.down:before {
+  content: "\f0a7"; }
+
+/* line 2317, semantic-ui/elements/_icon.scss */
+i.icon.globe:before {
+  content: "\f0ac"; }
+
+/* line 2320, semantic-ui/elements/_icon.scss */
+i.icon.wrench:before {
+  content: "\f0ad"; }
+
+/* line 2323, semantic-ui/elements/_icon.scss */
+i.icon.briefcase:before {
+  content: "\f0b1"; }
+
+/* line 2326, semantic-ui/elements/_icon.scss */
+i.icon.group:before {
+  content: "\f0c0"; }
+
+/* line 2329, semantic-ui/elements/_icon.scss */
+i.icon.flask:before {
+  content: "\f0c3"; }
+
+/* line 2332, semantic-ui/elements/_icon.scss */
+i.icon.sidebar:before {
+  content: "\f0c9"; }
+
+/* line 2335, semantic-ui/elements/_icon.scss */
+i.icon.bars:before {
+  content: "\f0c9"; }
+
+/* line 2338, semantic-ui/elements/_icon.scss */
+i.icon.list.ul:before {
+  content: "\f0ca"; }
+
+/* line 2341, semantic-ui/elements/_icon.scss */
+i.icon.list.ol:before {
+  content: "\f0cb"; }
+
+/* line 2344, semantic-ui/elements/_icon.scss */
+i.icon.numbered.list:before {
+  content: "\f0cb"; }
+
+/* line 2347, semantic-ui/elements/_icon.scss */
+i.icon.magic:before {
+  content: "\f0d0"; }
+
+/* line 2350, semantic-ui/elements/_icon.scss */
+i.icon.truck:before {
+  content: "\f0d1"; }
+
+/* line 2353, semantic-ui/elements/_icon.scss */
+i.icon.currency:before {
+  content: "\f0d6"; }
+
+/* line 2356, semantic-ui/elements/_icon.scss */
+i.icon.triangle.down:before {
+  content: "\f0d7"; }
+
+/* line 2359, semantic-ui/elements/_icon.scss */
+i.icon.dropdown:before {
+  content: "\f0d7"; }
+
+/* line 2362, semantic-ui/elements/_icon.scss */
+i.icon.triangle.up:before {
+  content: "\f0d8"; }
+
+/* line 2365, semantic-ui/elements/_icon.scss */
+i.icon.triangle.left:before {
+  content: "\f0d9"; }
+
+/* line 2368, semantic-ui/elements/_icon.scss */
+i.icon.triangle.right:before {
+  content: "\f0da"; }
+
+/* line 2371, semantic-ui/elements/_icon.scss */
+i.icon.envelope:before {
+  content: "\f0e0"; }
+
+/* line 2374, semantic-ui/elements/_icon.scss */
+i.icon.conversation:before {
+  content: "\f0e6"; }
+
+/* line 2377, semantic-ui/elements/_icon.scss */
+i.icon.umbrella:before {
+  content: "\f0e9"; }
+
+/* line 2380, semantic-ui/elements/_icon.scss */
+i.icon.clipboard:before {
+  content: "\f0ea"; }
+
+/* line 2383, semantic-ui/elements/_icon.scss */
+i.icon.lightbulb:before {
+  content: "\f0eb"; }
+
+/* line 2386, semantic-ui/elements/_icon.scss */
+i.icon.ambulance:before {
+  content: "\f0f9"; }
+
+/* line 2389, semantic-ui/elements/_icon.scss */
+i.icon.medkit:before {
+  content: "\f0fa"; }
+
+/* line 2392, semantic-ui/elements/_icon.scss */
+i.icon.fighter.jet:before {
+  content: "\f0fb"; }
+
+/* line 2395, semantic-ui/elements/_icon.scss */
+i.icon.beer:before {
+  content: "\f0fc"; }
+
+/* line 2398, semantic-ui/elements/_icon.scss */
+i.icon.plus.square:before {
+  content: "\f0fe"; }
+
+/* line 2401, semantic-ui/elements/_icon.scss */
+i.icon.computer:before {
+  content: "\f108"; }
+
+/* line 2404, semantic-ui/elements/_icon.scss */
+i.icon.circle.outline:before {
+  content: "\f10c"; }
+
+/* line 2407, semantic-ui/elements/_icon.scss */
+i.icon.intersex:before {
+  content: "\f10c"; }
+
+/* line 2410, semantic-ui/elements/_icon.scss */
+i.icon.asexual:before {
+  content: "\f10c"; }
+
+/* line 2413, semantic-ui/elements/_icon.scss */
+i.icon.spinner:before {
+  content: "\f110"; }
+
+/* line 2416, semantic-ui/elements/_icon.scss */
+i.icon.gamepad:before {
+  content: "\f11b"; }
+
+/* line 2419, semantic-ui/elements/_icon.scss */
+i.icon.star.half.full:before {
+  content: "\f123"; }
+
+/* line 2422, semantic-ui/elements/_icon.scss */
+i.icon.question:before {
+  content: "\f128"; }
+
+/* line 2425, semantic-ui/elements/_icon.scss */
+i.icon.eraser:before {
+  content: "\f12d"; }
+
+/* line 2428, semantic-ui/elements/_icon.scss */
+i.icon.microphone:before {
+  content: "\f130"; }
+
+/* line 2431, semantic-ui/elements/_icon.scss */
+i.icon.microphone.slash:before {
+  content: "\f131"; }
+
+/* line 2434, semantic-ui/elements/_icon.scss */
+i.icon.shield:before {
+  content: "\f132"; }
+
+/* line 2437, semantic-ui/elements/_icon.scss */
+i.icon.target:before {
+  content: "\f140"; }
+
+/* line 2440, semantic-ui/elements/_icon.scss */
+i.icon.play.circle:before {
+  content: "\f144"; }
+
+/* line 2443, semantic-ui/elements/_icon.scss */
+i.icon.pencil.square:before {
+  content: "\f14b"; }
+
+/* line 2446, semantic-ui/elements/_icon.scss */
+i.icon.compass:before {
+  content: "\f14e"; }
+
+/* line 2449, semantic-ui/elements/_icon.scss */
+i.icon.amex:before {
+  content: "\f1f3"; }
+
+/* line 2452, semantic-ui/elements/_icon.scss */
+i.icon.eur:before {
+  content: "\f153"; }
+
+/* line 2455, semantic-ui/elements/_icon.scss */
+i.icon.gbp:before {
+  content: "\f154"; }
+
+/* line 2458, semantic-ui/elements/_icon.scss */
+i.icon.usd:before {
+  content: "\f155"; }
+
+/* line 2461, semantic-ui/elements/_icon.scss */
+i.icon.inr:before {
+  content: "\f156"; }
+
+/* line 2464, semantic-ui/elements/_icon.scss */
+i.icon.cny:before,
+i.icon.rmb:before,
+i.icon.jpy:before {
+  content: "\f157"; }
+
+/* line 2469, semantic-ui/elements/_icon.scss */
+i.icon.rouble:before,
+i.icon.rub:before {
+  content: "\f158"; }
+
+/* line 2473, semantic-ui/elements/_icon.scss */
+i.icon.krw:before {
+  content: "\f159"; }
+
+/* line 2476, semantic-ui/elements/_icon.scss */
+i.icon.btc:before {
+  content: "\f15a"; }
+
+/* line 2479, semantic-ui/elements/_icon.scss */
+i.icon.sheqel:before,
+i.icon.ils:before {
+  content: "\f20b"; }
+
+/* line 2483, semantic-ui/elements/_icon.scss */
+i.icon.try:before {
+  content: "\f195"; }
+
+/* line 2486, semantic-ui/elements/_icon.scss */
+i.icon.zip:before {
+  content: "\f187"; }
+
+/* line 2489, semantic-ui/elements/_icon.scss */
+i.icon.dot.circle.outline:before {
+  content: "\f192"; }
+
+/* line 2492, semantic-ui/elements/_icon.scss */
+i.icon.sliders:before {
+  content: "\f1de"; }
+
+/* line 2495, semantic-ui/elements/_icon.scss */
+i.icon.wi-fi:before {
+  content: "\f1eb"; }
+
+/* line 2498, semantic-ui/elements/_icon.scss */
+i.icon.graduation:before {
+  content: "\f19d"; }
+
+/* line 2501, semantic-ui/elements/_icon.scss */
+i.icon.weixin:before {
+  content: "\f1d7"; }
+
+/* line 2504, semantic-ui/elements/_icon.scss */
+i.icon.binoculars:before {
+  content: "\f1e5"; }
+
+/* line 2507, semantic-ui/elements/_icon.scss */
+i.icon.gratipay:before {
+  content: "\f184"; }
+
+/* line 2510, semantic-ui/elements/_icon.scss */
+i.icon.genderless:before {
+  content: "\f1db"; }
+
+/* line 2513, semantic-ui/elements/_icon.scss */
+i.icon.teletype:before {
+  content: "\f1e4"; }
+
+/* line 2516, semantic-ui/elements/_icon.scss */
+i.icon.power.cord:before {
+  content: "\f1e6"; }
+
+/* line 2519, semantic-ui/elements/_icon.scss */
+i.icon.tty:before {
+  content: "\f1e4"; }
+
+/* line 2522, semantic-ui/elements/_icon.scss */
+i.icon.cc:before {
+  content: "\f20a"; }
+
+/* line 2525, semantic-ui/elements/_icon.scss */
+i.icon.plus.cart:before {
+  content: "\f217"; }
+
+/* line 2528, semantic-ui/elements/_icon.scss */
+i.icon.arrow.down.cart:before {
+  content: "\f218"; }
+
+/* line 2531, semantic-ui/elements/_icon.scss */
+i.icon.detective:before {
+  content: "\f21b"; }
+
+/* line 2534, semantic-ui/elements/_icon.scss */
+i.icon.venus:before {
+  content: "\f221"; }
+
+/* line 2537, semantic-ui/elements/_icon.scss */
+i.icon.mars:before {
+  content: "\f222"; }
+
+/* line 2540, semantic-ui/elements/_icon.scss */
+i.icon.mercury:before {
+  content: "\f223"; }
+
+/* line 2543, semantic-ui/elements/_icon.scss */
+i.icon.venus.double:before {
+  content: "\f226"; }
+
+/* line 2546, semantic-ui/elements/_icon.scss */
+i.icon.female.homosexual:before {
+  content: "\f226"; }
+
+/* line 2549, semantic-ui/elements/_icon.scss */
+i.icon.mars.double:before {
+  content: "\f227"; }
+
+/* line 2552, semantic-ui/elements/_icon.scss */
+i.icon.male.homosexual:before {
+  content: "\f227"; }
+
+/* line 2555, semantic-ui/elements/_icon.scss */
+i.icon.venus.mars:before {
+  content: "\f228"; }
+
+/* line 2558, semantic-ui/elements/_icon.scss */
+i.icon.mars.stroke:before {
+  content: "\f229"; }
+
+/* line 2561, semantic-ui/elements/_icon.scss */
+i.icon.mars.alternate:before {
+  content: "\f229"; }
+
+/* line 2564, semantic-ui/elements/_icon.scss */
+i.icon.mars.vertical:before {
+  content: "\f22a"; }
+
+/* line 2567, semantic-ui/elements/_icon.scss */
+i.icon.mars.horizontal:before {
+  content: "\f22b"; }
+
+/* line 2570, semantic-ui/elements/_icon.scss */
+i.icon.mars.stroke.vertical:before {
+  content: "\f22a"; }
+
+/* line 2573, semantic-ui/elements/_icon.scss */
+i.icon.mars.stroke.horizontal:before {
+  content: "\f22b"; }
+
+/* line 2576, semantic-ui/elements/_icon.scss */
+i.icon.facebook.official {
+  content: "\f230"; }
+
+/* line 2579, semantic-ui/elements/_icon.scss */
+i.icon.pinterest.official {
+  content: "\f231"; }
+
+/* line 2582, semantic-ui/elements/_icon.scss */
+i.icon.bed:before {
+  content: "\f236"; }
+
+/*******************************
+         Site Overrides
+*******************************/
 /*
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
@@ -5347,11 +8590,11 @@ body.is-menu-visible #menu {
     #wrapper > * > .inner {
       padding: 0 1.25em; } }
 
-/* line 73, main.css.scss */
+/* line 74, main.css.scss */
 body {
   padding-top: 3em; }
 
-/* line 79, main.css.scss */
+/* line 80, main.css.scss */
 .content p img {
   width: inherit;
   max-width: 100%;
@@ -5359,10 +8602,10 @@ body {
   margin-left: auto;
   margin-right: auto; }
 
-/* line 91, main.css.scss */
+/* line 92, main.css.scss */
 article {
   cursor: pointer; }
 
-/* line 95, main.css.scss */
+/* line 96, main.css.scss */
 .header {
   text-transform: uppercase; }
