@@ -43,6 +43,8 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
+  activate :relative_assets
+  set :site_url, "/portfolio-site"
 end
 
 helpers do
