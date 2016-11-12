@@ -66,6 +66,15 @@
     To help fill this gap, the Data Services Research and Digital teams are working together to harvest online rental listings and compile them into a data product that can be used to track changes in advertised rents over time and in different neighborhoods. The goal is to produce a weekly data feed of cleaned and de-duplicated rental listings as well as formatted summary reports that will help municipal officials and community organizations to understand local conditions at a glance.
 
     <iframe width="100%" height="520" frameborder="0" src="https://mapc.carto.com/u/mapc-admin/viz/be61984c-a3ce-11e6-a4a5-0ecd1babdde5/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+- 
+  title: "The Economic Geography of Airbnb"
+  description: "Cloud-based data scraping project to understand market dynamics."
+  image: "airbnb.png"
+  style: "style6"
+  detail: |
+    This project was an effort to understand the market dynamics of Airbnb in smaller communities. From the perspective of economic geography, exposing sensitive housing dynamics in Boston to the "global willingness to pay" suggests the need for empirical scrutiny. Using Tom Slee's Airbnb scraper, I harvested listing data in the Boston area over the course of several weeks to inform the housing work we were doing in several communities. This helped us discover that theoretical tax revenue was minimal at this point in the lifespan of Airbnb, but worth exloring at later dates once the service has reached a critical mass. 
+
+    <iframe width="100%" height="520" frameborder="0" src="https://wilburnforce.carto.com/viz/3f9d5d40-2cbd-11e5-84d3-0e018d66dc29/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 -
   title: "KnowPlace"
   description: "A tool for creating neighborhood-level statistics for any community in Metro Boston."
