@@ -1,4 +1,15 @@
 - 
+  title: "Gas Leaks Analysis"
+  description: "Interactive data visualizations on the cost of repairing gas leaks in the Boston area."
+  image: "gasleaks2.png"
+  style: "style6"
+  detail: |
+    Fix Our Pipes is a collaboration with the Metro Mayors Coalition and MAPC to unearth the shortcomings of the regional-scale logistics of gas pipe leak repair. The challenge here was to balance the substance of a fairly technical research effort with making the information approachable to the general public. Interactive data visualization allowed users from many audiences to engage with the issues and the data by adjusting the parameters of the analysis on-the-fly. 
+
+    ![Gas Leaks: Cost of Coordination](images/projects/gasleaks.gif "Gas Leaks: Cost of Coordination")
+
+    Here, the analysis itself is contained within a SQL query that is run against Carto's SQL API, embracing principles of reproducibility. 
+- 
   title: "MassBuilds Explorer"
   description: "An interactive mapping platform for exploring real estate developments in the Metro Boston region."
   image: "massbuilds.png"
